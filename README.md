@@ -1,5 +1,5 @@
 # 把xampp文件夹传上来了
-1
+主要代码在xampp\htdocs\thinkphp5文件夹里，但是因为还有数据库数据啥的
 # User Account
 | username  | name | password | access_level |
 | ------------- | ------------- | ------------- | ------------- |
