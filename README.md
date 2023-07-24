@@ -1,6 +1,6 @@
 # exercise
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| username  | name | | password | access_level |
+| ------------- | ------------- | ------------- | ------------- |
+| zhangsan  | 章三  | 123456 |  | administrator |
+| lisi | 黎司  | 456789  | normal user |
 
