@@ -1,0 +1,31 @@
+{extend name="index"/}
+{block name="title"}
+项目管理
+{/block}
+{block name="content"}
+            <table class="table table-hover table-bordered">
+                <tr class="info">
+                    <th>序号</th>
+                    <th>用户名</th>
+                    <th>姓名</th>
+                    <th>访问权限</th>
+                    <th>操作</th>
+                </tr>
+                {volist name="Users" id="_user" key="key"}
+                <tr>
+                    <td>{$key}</td>
+                    <td>{$_user->getData('username')}</td>
+                    <td>{$_user->getData('name')}</td>
+                    <td>{$_user->getData('access_level')}</td>
+                    <td>
+                        <a class="btn btn-sm btn-primary bi-pencil-square" href="{:url('edit?id=' . $_project->getData('id'))}">&nbsp编辑</a>
+                        <a class="btn btn-sm btn-success bi-person-add" href="{:url('project_join?id=' . $_project->getData('id'))}">&nbsp加入</a>
+                        <a class="btn btn-sm btn-danger bi-trash" href="{:url('delete?id=' . $_project->getData('id'))}">&nbsp删除</a>
+                    </td>
+                </tr>
+                {/volist}
+            </table>
+{/block}
+{block name="page"}
+    {$Users->render()}
+{/block}

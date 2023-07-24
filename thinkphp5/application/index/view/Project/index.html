@@ -1,0 +1,42 @@
+{extend name="index"/}
+{block name="title"}
+项目管理
+{/block}
+{block name="search"}
+    <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" name="project_name" placeholder="项目名称..." value="{:input('get.project_name')}">
+        <button class="btn btn-primary bi-search" type="submit">查询</button>
+    </form>
+{/block}
+{block name="content"}
+    <table class="table table-hover table-bordered">
+        <tr class="info">
+            <th>序号</th>
+            <th>项目名称</th>
+            <th>访问类型</th>
+            <th>操作</th>
+        </tr>
+        <?php $_SESSION['key'] = 1; ?>
+        {volist name="Projects" id="_project" key="key"}
+        <!--如果!(项目私有且登陆用户为成员)，则显示该项目-->
+        <?php if(!(($_project->getData('access_type') === 1) && ($_SESSION['think']['user']->getData('access_level') === 0))): ?>
+        <tr>
+            <td>{$_SESSION['key']++}</td>
+            <td>{$_project->getData('project_name')}</td>
+            <td>{eq name="_project->getData('access_type')" value='0'}公开{else /}私有{/eq}</td>
+            <td>
+                <a class="btn btn-sm btn-primary bi-eye" href="{:url('project_task?id=' . $_project->getData('id'))}">&nbsp查看</a>
+                <a class="btn btn-sm btn-success bi-person-add" href="{:url('project_join?id=' . $_project->getData('id'))}">&nbsp加入</a>
+                <a {eq name="$_SESSION['think']['user']->getData('access_level')" value="0"}hidden{/eq} class="btn btn-sm btn-warning bi-pencil-square" href="{:url('edit?id=' . $_project->getData('id'))}">&nbsp编辑</a>
+                <a {eq name="$_SESSION['think']['user']->getData('access_level')" value="0"}hidden{/eq} class="btn btn-sm btn-danger bi-trash" href="{:url('delete?id=' . $_project->getData('id'))}">&nbsp删除</a>
+            </td>
+        </tr>
+        <?php endif; ?>
+        {/volist}
+    </table>
+{/block}
+{block name="page"}
+<nav aria-label="Page navigation example">
+    {$Projects->render()}
+</nav>
+{/block}

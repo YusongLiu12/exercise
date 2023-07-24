@@ -1,0 +1,20 @@
+{extend name="edit_or_add"}
+{block name="title"}
+{eq name="User->id" value=""}新增用户{else /}编辑用户{/eq}
+{/block}
+{block name="content"}
+{php}$action = request()->action() === 'add' ? 'save' : 'update';{/php}
+<form action="{:url($action)}" method="POST">
+    <div class="form-group">
+        <label for="project_name">用户名</label>
+        <input type="text" class="form-control" id="username" aria-describedby="请输入项目名称" name="username">
+    </div>
+    <label>访问类型:</label>
+    <select name="access_type">
+        <option value="0">公开</option>
+        <option value="1" {eq name="Project->access_type" value="1" }selected="selected" {/eq}>私有</option>
+    </select>
+
+    <button type="submit" class="btn btn-primary">保存</button>
+</form>
+{/block}
