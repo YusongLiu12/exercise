@@ -7,17 +7,21 @@ use think\Request;
 /**
  * 项目管理
  */
-class ProjectController extends Controller
+class UserController extends Controller
 {
     public function __construct()
     {
         // 调用父类构造函数(必须)
         parent::__construct();
 
+        $_SESSION['now_controller'] = 'User';
+
         // 验证用户是否登陆
         if (!User::isLogin()) {
             return $this->error('plz login first', url('Login/index'));
         }
+        
+        
     }
 
     public function add()
@@ -39,7 +43,7 @@ class ProjectController extends Controller
 
     public function index()
     {
-        $keyword = "用户";
+        $add_keyword = "新增用户";
        // 获取查询信息
         $username = input('get.username');
 
@@ -57,7 +61,7 @@ class ProjectController extends Controller
 
         // 向V层传数据
         $this->assign('Users', $Users);
-        $this->assign('keyword', $keyword);
+        $this->assign('add_keyword', $add_keyword);
 
         // 取回打包后的数据
         $htmls = $this->fetch();

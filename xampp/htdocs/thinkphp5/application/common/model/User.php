@@ -57,6 +57,15 @@ class User extends Model
                 // 登录
                 session('user', $User);
 
+                //当前登录用户已加入的项目
+                $ProjectUser_verify = new ProjectUser;
+                $joined_projects_array = array();
+                $joined_projects = $ProjectUser_verify->where('user_id', '=', $_SESSION['think']['user']->getData('id'))->select();
+                foreach ($joined_projects as $PUdata)
+                {
+                    array_push($joined_projects_array, $PUdata->getData('project_id'));
+                }
+                session("joined_projects", $joined_projects_array);
                 return true;
             }
         }
@@ -71,7 +80,8 @@ class User extends Model
     static public function logOut()
     {
         // 销毁session中数据
-        session('userId', null);
+        session('user', null);
+        session('joined_projects', null);
         return true;
     }
 
