@@ -1,10 +1,6 @@
 # exercise
-| user account |
-| username | name | password | access_level |
-| ---- | ---- | ---- |
-|zhangsan	| 章三	| 123456 | 管理员 |
-| lisi | 黎司 | 456789 | 用户 |
-|  表头   | 表头  |
-|  ----  | ----  |
-| 单元格  | 单元格 |
-| 单元格  | 单元格 |
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
