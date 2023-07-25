@@ -1,0 +1,39 @@
+{extend name="index"/}
+{block name="title"}
+用户管理
+{/block}
+{block name="search"}
+    <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" name="username" placeholder="用户名..." value="{:input('get.username')}">
+        <button class="btn btn-primary bi-search" type="submit">查询</button>
+    </form>
+{/block}
+{block name="content"}
+    <table class="table table-hover table-bordered">
+        <tr class="info">
+            <th>序号</th>
+            <th>用户名</th>
+            <th>姓名</th>
+            <th>访问权限</th>
+            <th {eq name="$_SESSION['think']['user']->getData('access_level')" value="0"}hidden{/eq}>密码</th>
+            <th>操作</th>
+        </tr>
+        {volist name="Users" id="_user" key="key"}
+        <tr>
+            <td>{$key}</td>
+            <td>{$_user->getData('username')}</td>
+            <td>{$_user->getData('name')}</td>
+            <td>{eq name="_user->getData('access_level')" value="0"}用户{else /}管理员{/eq}</td>
+            <td {eq name="$_SESSION['think']['user']->getData('access_level')" value="0"}hidden{/eq}>{$_user->getData('password')}</td>
+            <td>
+                <a class="btn btn-sm btn-info bi-eye" href="{:url('delete?id=' . $_user->getData('id'))}">&nbsp参与项目</a>
+                <a {eq name="$_SESSION['think']['user']->getData('access_level')" value="0"}hidden{/eq} class="btn btn-sm btn-primary bi-pencil-square" href="{:url('edit?id=' . $_user->getData('id'))}">&nbsp编辑</a>
+                <a {eq name="$_SESSION['think']['user']->getData('access_level')" value="0"}hidden{/eq} class="btn btn-sm btn-danger bi-trash" href="{:url('delete?id=' . $_user->getData('id'))}">&nbsp删除</a>
+            </td>
+        </tr>
+        {/volist}
+    </table>
+{/block}
+{block name="page"}
+    {$Users->render()}
+{/block}

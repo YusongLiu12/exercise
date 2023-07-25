@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{block name="title"}标题{/block}</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <!-- Always remember to call the above files first before calling the bootstrap.min.js file -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+    <!--include css and js files-->
+    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/css/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/js/bootstrap.bundle.js">
+    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/js/bootstrap.js">
+    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/js/bootstrap.min.js">
+
+    <!--include icon css-->
+    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+</head>
+
+<body class="container">
+    <!-- 菜单导航 -->
+    <div class="row">
+        <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand" href="#">项目管理系统</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <!--$_SESSION['now_controller']在控制器构造函数中定义-->
+                <li class="nav-item {eq name="$_SESSION['now_controller']" value="Project"}active{/eq}">
+                <a class="nav-link" href="{:url('Project/index')}">项目管理<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item {eq name="$_SESSION['now_controller']" value="User"}active{/eq}">
+                <a class="nav-link" href="{:url('User/index')}">用户管理</a>
+                </li>
+                </ul>
+                
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle bi-person-fill" type="button" data-toggle="dropdown" aria-expanded="false">
+                    欢迎您，{$_SESSION['think']['user']->getData('name')}{eq name="$_SESSION['think']['user']->getData('access_level')"" value="0"}用户{else /}管理员{/eq}
+                    </button>
+                    <div class="dropdown-menu">
+                        <small class="dropdown-item">{eq name="$_SESSION['think']['user']->getData('access_level')"" value="0"}欢迎加入我们，今后一起努力吧!{else /}您已拥有最高权限{/eq}</small>
+                        <a class="dropdown-item" href="{:url('Login/logout')}">退出登录</a>
+                    </div>
+                </div>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- /菜单导航 -->
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            {block name="search"} {/block}
+        </div>
+        <div class="offset-6 col-md-2 text-right">
+            <a class="text-right btn btn-primary bi-journal-plus" href="{:url('add')}">&nbsp{$add_keyword}</a>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-12">
+            {block name="content"} {/block}
+            {block name="page"} {/block}
+        </div>
+    </div>
+</body>
+
+</html>
