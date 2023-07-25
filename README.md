@@ -3,6 +3,6 @@
 # User Account
 | username  | name | password | access_level |
 | ------------- | ------------- | ------------- | ------------- |
-| zhangsan  | 章三  | 123456 | administrator |
-| lisi | 黎司  | 456789  | normal user |
+| zhangsan  | 张三  | 123456 | administrator |
+| lisi | 李四  | 456789  | normal user |
 
