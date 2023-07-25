@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:83:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\edit_or_add.html";i:1690255055;s:75:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\edit_or_add.html";i:1690017424;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:83:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\edit_or_add.html";i:1690296188;s:75:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\edit_or_add.html";i:1690017424;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 
@@ -48,9 +48,12 @@
         <label>访问类型:</label>
         <select class="" name="access_type">
             <option value="0">公开</option>
-            <option value="1" <?php if($Project->access_type == '1'): ?>selected="selected" <?php endif; ?>>私有</option>
+            <option value="1" <?php if($Project->access_type == '1'): ?>selected="selected"<?php endif; ?>>私有</option>
         </select>
-        <small name="$Project->getData('id')" value="1"}hidden{/eq}>若创建者不是您，将项目类型修改为私有</small>
+        <div <?php if(($Project->create_user === $_SESSION['think']['user']->id) || (in_array($Project->id, $_SESSION['think']['joined_projects']))) echo "hidden"; ?> class="alert alert-danger" role="alert">
+            该项目创建者不是您，且您不在项目内，将项目类型修改为私有后您将无法看见该项目
+        </div>
+
     </div>
 
     <button type="submit" class="btn btn-primary">保存</button>

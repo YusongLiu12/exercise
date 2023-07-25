@@ -1,0 +1,34 @@
+{extend name="edit_or_add"}
+{block name="title"}
+{eq name="Task->id" value=""}新增任务{else /}编辑任务{/eq}
+{/block}
+{block name="content"}
+{php}$action = request()->action() === 'add' ? 'save' : 'update';{/php}
+<form action="{:url($action)}" method="POST"> 
+    <input type="hidden" name="id" value="{$Task->id}" />
+    <div class="form-group">
+        <label for="Task_name">任务标题</label>
+        <input type="text" class="form-control" id="username" aria-describedby="请输入项目名称" name="Task_name">
+    </div>
+    <div class="form-group">
+        <label>任务状态:</label>
+        <select class="" name="task_status">
+            <option value="0">未开始</option>
+            <option value="1" {eq name="$Task->status" value="1" }selected="selected"{/eq}>进行中</option>
+            <option value="2" {eq name="$Task->status" value="2" }selected="selected"{/eq}>已结束</option>
+        </select>
+    </div>
+    <div class="form-group" 
+    <?php if($_SESSION['think']['project']->getData('create_user') !== $_SESSION['think']['user']->getData('id')) echo "hidden"; ?>>
+        <label>负责人:</label>
+        <select class="" name="leader_id">
+            {volist name="joined_users" id='_user_id'}
+            <option value="$_user_id" {eq name="$Task->leader_id" value="$_user_id" }selected="selected"{/eq}><?php echo $User->getNameById($_user_id); ?></option>
+            {/volist}
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">保存</button>
+</form>
+{/block}
+
+

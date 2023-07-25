@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:74:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\user\index.html";i:1690201755;s:69:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\index.html";i:1690212587;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:74:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\user\index.html";i:1690273199;s:69:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\index.html";i:1690273108;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
@@ -58,7 +58,7 @@
                     欢迎您，<?php echo $_SESSION['think']['user']->getData('name'); if($_SESSION['think']['user']->getData('access_level') == '0'): ?>用户<?php else: ?>管理员<?php endif; ?>
                     </button>
                     <div class="dropdown-menu">
-                        <small class="dropdown-item"><?php if($_SESSION['think']['user']->getData('access_level') == '0'): ?>欢迎加入我们，今后一起努力吧!<?php else: ?>您已拥有最高权限<?php endif; ?></small>
+                        <small class="dropdown-item"><?php if($_SESSION['think']['user']->getData('access_level') == '0'): ?>欢迎加入我们，今后一起努力吧!<?php else: ?>您已拥有一级权限<?php endif; ?></small>
                         <a class="dropdown-item" href="<?php echo url('Login/logout'); ?>">退出登录</a>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
             
     <form class="form-inline">
         <input class="form-control mr-sm-2" type="search" name="username" placeholder="用户名..." value="<?php echo input('get.username'); ?>">
-        <button class="btn btn-primary bi-search" type="submit">查询</button>
+        <button class="btn btn-primary bi-search" type="submit">&nbsp查询</button>
     </form>
 
         </div>

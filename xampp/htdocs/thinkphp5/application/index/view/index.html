@@ -55,7 +55,7 @@
                     欢迎您，{$_SESSION['think']['user']->getData('name')}{eq name="$_SESSION['think']['user']->getData('access_level')"" value="0"}用户{else /}管理员{/eq}
                     </button>
                     <div class="dropdown-menu">
-                        <small class="dropdown-item">{eq name="$_SESSION['think']['user']->getData('access_level')"" value="0"}欢迎加入我们，今后一起努力吧!{else /}您已拥有最高权限{/eq}</small>
+                        <small class="dropdown-item">{eq name="$_SESSION['think']['user']->getData('access_level')"" value="0"}欢迎加入我们，今后一起努力吧!{else /}您已拥有一级权限{/eq}</small>
                         <a class="dropdown-item" href="{:url('Login/logout')}">退出登录</a>
                     </div>
                 </div>

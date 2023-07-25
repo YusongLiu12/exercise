@@ -5,27 +5,29 @@
 {block name="search"}
     <form class="form-inline">
         <input class="form-control mr-sm-2" type="search" name="project_name" placeholder="项目名称..." value="{:input('get.project_name')}">
-        <button class="btn btn-primary bi-search" type="submit">查询</button>
+        <button class="btn btn-primary bi-search" type="submit">&nbsp查询</button>
     </form>
 {/block}
 {block name="content"}
     <table class="table table-hover table-bordered">
         <tr class="info">
             <th>序号</th>
-            <th>项目名称</th>
+            <th>项目名称</th>           
+            <th>创建者</th>
             <th>访问类型</th>
             <th>操作</th>
         </tr>
         <?php $_SESSION['key'] = 1; ?>
         {volist name="Projects" id="_project" key="key"}
-        <!--如果!(项目私有且登陆用户为成员)，则显示该项目-->
+        <!--如果项目公开或者登陆用户为项目成员)，则显示该项目-->
         <?php if(($_project->getData('access_type') === 0) || in_array($_project->getData('id'), $_SESSION['think']['joined_projects'])): ?>
         <tr>
             <td>{$_SESSION['key']++}</td>
             <td>{$_project->getData('project_name')}</td>
+            <td><?php echo $User->getNameById($_project->getData('create_user')); ?></td>
             <td>{eq name="_project->getData('access_type')" value='0'}公开{else /}私有{/eq}</td>
             <td>
-                <a class="btn btn-sm btn-primary bi-list-task" href="{:url('project_task?id=' . $_project->getData('id'))}">&nbsp任务</a>
+                <a class="btn btn-sm btn-primary bi-list-task" href="{:url('Task/index?id=' . $_project->getData('id'))}">&nbsp任务</a>
                 <a {eq name="$_SESSION['think']['user']->getData('access_level')" value="0"}hidden{/eq} class="btn btn-sm btn-info bi-pencil-square" href="{:url('edit?id=' . $_project->getData('id'))}">&nbsp编辑</a>
                 <a {eq name="$_SESSION['think']['user']->getData('access_level')" value="0"}hidden{/eq} class="btn btn-sm btn-danger bi-trash" href="{:url('delete?id=' . $_project->getData('id'))}">&nbsp删除</a>
                 <?php if(in_array($_project->getData('id'), $_SESSION['think']['joined_projects'])): ?>

@@ -16,9 +16,10 @@
             <option value="0">公开</option>
             <option value="1" {eq name="Project->access_type" value="1" }selected="selected"{/eq}>私有</option>
         </select>
-        <small <?php if(($Project->access_type === "1") || ($Project->create_user === $_SESSION['think']['user']->id)?>>
-            该项目创建者不是您，请谨慎修改项目类型
-        </small>
+        <div <?php if(($Project->create_user === $_SESSION['think']['user']->id) || (in_array($Project->id, $_SESSION['think']['joined_projects']))) echo "hidden"; ?> class="alert alert-danger" role="alert">
+            该项目创建者不是您，且您不在项目内，将项目类型修改为私有后您将无法看见该项目
+        </div>
+
     </div>
 
     <button type="submit" class="btn btn-primary">保存</button>

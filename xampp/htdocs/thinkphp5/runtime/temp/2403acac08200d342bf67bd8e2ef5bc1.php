@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:77:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html";i:1690216510;s:69:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\index.html";i:1690212587;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:77:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html";i:1690300867;s:69:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\index.html";i:1690295273;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
@@ -58,7 +58,7 @@
                     欢迎您，<?php echo $_SESSION['think']['user']->getData('name'); if($_SESSION['think']['user']->getData('access_level') == '0'): ?>用户<?php else: ?>管理员<?php endif; ?>
                     </button>
                     <div class="dropdown-menu">
-                        <small class="dropdown-item"><?php if($_SESSION['think']['user']->getData('access_level') == '0'): ?>欢迎加入我们，今后一起努力吧!<?php else: ?>您已拥有最高权限<?php endif; ?></small>
+                        <small class="dropdown-item"><?php if($_SESSION['think']['user']->getData('access_level') == '0'): ?>欢迎加入我们，今后一起努力吧!<?php else: ?>您已拥有一级权限<?php endif; ?></small>
                         <a class="dropdown-item" href="<?php echo url('Login/logout'); ?>">退出登录</a>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
             
     <form class="form-inline">
         <input class="form-control mr-sm-2" type="search" name="project_name" placeholder="项目名称..." value="<?php echo input('get.project_name'); ?>">
-        <button class="btn btn-primary bi-search" type="submit">查询</button>
+        <button class="btn btn-primary bi-search" type="submit">&nbsp查询</button>
     </form>
 
         </div>
@@ -89,19 +89,21 @@
     <table class="table table-hover table-bordered">
         <tr class="info">
             <th>序号</th>
-            <th>项目名称</th>
+            <th>项目名称</th>           
+            <th>创建者</th>
             <th>访问类型</th>
             <th>操作</th>
         </tr>
         <?php $_SESSION['key'] = 1; if(is_array($Projects) || $Projects instanceof \think\Collection): $key = 0; $__LIST__ = $Projects;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$_project): $mod = ($key % 2 );++$key;?>
-        <!--如果!(项目私有且登陆用户为成员)，则显示该项目-->
+        <!--如果项目公开或者登陆用户为项目成员)，则显示该项目-->
         <?php if(($_project->getData('access_type') === 0) || in_array($_project->getData('id'), $_SESSION['think']['joined_projects'])): ?>
         <tr>
             <td><?php echo $_SESSION['key']++; ?></td>
             <td><?php echo $_project->getData('project_name'); ?></td>
+            <td><?php echo $User->getNameById($_project->getData('create_user')); ?></td>
             <td><?php if($_project->getData('access_type') == '0'): ?>公开<?php else: ?>私有<?php endif; ?></td>
             <td>
-                <a class="btn btn-sm btn-primary bi-list-task" href="<?php echo url('project_task?id=' . $_project->getData('id')); ?>">&nbsp任务</a>
+                <a class="btn btn-sm btn-primary bi-list-task" href="<?php echo url('Task/index?id=' . $_project->getData('id')); ?>">&nbsp任务</a>
                 <a <?php if($_SESSION['think']['user']->getData('access_level') == '0'): ?>hidden<?php endif; ?> class="btn btn-sm btn-info bi-pencil-square" href="<?php echo url('edit?id=' . $_project->getData('id')); ?>">&nbsp编辑</a>
                 <a <?php if($_SESSION['think']['user']->getData('access_level') == '0'): ?>hidden<?php endif; ?> class="btn btn-sm btn-danger bi-trash" href="<?php echo url('delete?id=' . $_project->getData('id')); ?>">&nbsp删除</a>
                 <?php if(in_array($_project->getData('id'), $_SESSION['think']['joined_projects'])): ?>

@@ -3,6 +3,7 @@ namespace app\index\controller; // 该文件的位于application\index\controlle
 use think\Controller;   // 用于与V层进行数据传递
 use app\common\model\Project;       // 项目模型
 use app\common\model\User;
+use app\common\model\Task;
 use app\common\model\ProjectUser;
 use think\Request;
 /**
@@ -97,8 +98,9 @@ class ProjectController extends Controller
 
         $pageSize = 5; // 每页显示5条数据
 
-        // 实例化Klass
+        // 实例化
         $Project = new Project; 
+        $User = new User;
 
         // 按条件查询数据并调用分页
         $Projects = $Project->where('project_name', 'like', '%' . $project_name . '%')->paginate($pageSize, false, [
@@ -109,6 +111,7 @@ class ProjectController extends Controller
 
         // 向V层传数据
         $this->assign('Projects', $Projects);
+        $this->assign('User', $User);
         $this->assign('add_keyword', $add_keyword);
 
         // 取回打包后的数据

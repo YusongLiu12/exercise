@@ -22,6 +22,12 @@ class User extends Model
         }
     }
 
+    public function getNameById($id)
+    {
+        $User = self::get($id);
+        return $User->getData('name');
+    }
+
     /**
      * 判断用户是否已登录
      * @return boolean 已登录true 未登录false
