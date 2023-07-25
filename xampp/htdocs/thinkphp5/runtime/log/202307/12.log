@@ -1,0 +1,3223 @@
+[ 2023-07-12T12:45:01+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.022789s][吞吐率：43.88req/s] [内存消耗：917.80kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T12:45:32+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.015666s][吞吐率：63.83req/s] [内存消耗：917.59kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T12:45:33+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.011676s][吞吐率：85.65req/s] [内存消耗：917.59kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T12:45:35+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.014235s][吞吐率：70.25req/s] [内存消耗：917.59kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T12:45:36+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.010367s][吞吐率：96.46req/s] [内存消耗：917.59kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T13:36:14+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.012123s][吞吐率：82.49req/s] [内存消耗：917.56kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T13:36:34+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/index.php
+[ log ] 127.0.0.1:444/thinkphp5/public/index.php [运行时间：0.013770s][吞吐率：72.62req/s] [内存消耗：917.48kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T13:38:08+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/index.php
+[ log ] 127.0.0.1:81/thinkphp5/public/index.php [运行时间：0.010679s][吞吐率：93.64req/s] [内存消耗：917.58kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:81',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T13:38:19+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:81/thinkphp5/public/index.php [运行时间：0.013048s][吞吐率：76.64req/s] [内存消耗：917.49kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:81',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T13:38:57+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.010699s][吞吐率：93.47req/s] [内存消耗：917.56kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T13:43:08+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.012391s][吞吐率：80.70req/s] [内存消耗：917.56kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T13:53:51+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index
+[ log ] localhost:444/thinkphp5/public/index.php/index [运行时间：0.010980s][吞吐率：91.07req/s] [内存消耗：917.52kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T13:54:09+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.010332s][吞吐率：96.79req/s] [内存消耗：917.56kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T13:56:12+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/index.php/index
+[ log ] 127.0.0.1:81/thinkphp5/public/index.php/index [运行时间：0.012079s][吞吐率：82.79req/s] [内存消耗：917.50kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:81',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T13:56:46+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/index.php
+[ log ] 127.0.0.1:81/thinkphp5/public/index.php [运行时间：0.010031s][吞吐率：99.69req/s] [内存消耗：917.58kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:81',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T13:57:24+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/index.php/index/Index/index
+[ log ] 127.0.0.1:444/thinkphp5/public/index.php/index/Index/index [运行时间：0.010387s][吞吐率：96.27req/s] [内存消耗：917.55kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T13:57:33+08:00 ] ::1 ::1 GET /thinkphp5/public/
+[ log ] localhost:444/thinkphp5/public/ [运行时间：0.012121s][吞吐率：82.50req/s] [内存消耗：917.62kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:444/thinkphp5/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T13:57:55+08:00 ] ::1 ::1 GET /thinkphp5/public/
+[ log ] localhost:444/thinkphp5/public/ [运行时间：0.009804s][吞吐率：102.00req/s] [内存消耗：917.70kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:444/thinkphp5/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:01:31+08:00 ] ::1 ::1 GET /thinkphp5/public/
+[ log ] localhost:444/thinkphp5/public/ [运行时间：0.010611s][吞吐率：94.24req/s] [内存消耗：916.95kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:444/thinkphp5/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:32:32+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Index/index
+[ log ] localhost:444/thinkphp5/public/index.php/index/Index/index [运行时间：0.011160s][吞吐率：89.61req/s] [内存消耗：916.77kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:37:50+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/test
+[ log ] localhost:444/thinkphp5/public/index.php/test [运行时间：0.011152s][吞吐率：89.67req/s] [内存消耗：916.73kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\test\controller\Index.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:42:35+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/test
+[ log ] localhost:444/thinkphp5/public/index.php/test [运行时间：0.011262s][吞吐率：88.79req/s] [内存消耗：916.83kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\test\controller\Index.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:42:36+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/test
+[ log ] localhost:444/thinkphp5/public/index.php/test [运行时间：0.009712s][吞吐率：102.97req/s] [内存消耗：916.83kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\test\controller\Index.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:42:36+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/test
+[ log ] localhost:444/thinkphp5/public/index.php/test [运行时间：0.009487s][吞吐率：105.41req/s] [内存消耗：916.83kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\test\controller\Index.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:42:36+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/test
+[ log ] localhost:444/thinkphp5/public/index.php/test [运行时间：0.009262s][吞吐率：107.97req/s] [内存消耗：916.83kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\test\controller\Index.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:42:46+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/hi/yunzhier [运行时间：0.016676s][吞吐率：59.97req/s] [内存消耗：1,026.46kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:43:38+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/hi/yunzhier [运行时间：0.012767s][吞吐率：78.33req/s] [内存消耗：1,026.27kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:43:44+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.012441s][吞吐率：80.38req/s] [内存消耗：1,026.27kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:04+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.010711s][吞吐率：93.36req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:14+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.010608s][吞吐率：94.27req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 8
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:14+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.011576s][吞吐率：86.39req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 8
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:14+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.010129s][吞吐率：98.73req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 8
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:15+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.009973s][吞吐率：100.27req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 8
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:15+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.010167s][吞吐率：98.36req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 8
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:15+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.010227s][吞吐率：97.78req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 8
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:15+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.010135s][吞吐率：98.67req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 8
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:15+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.009633s][吞吐率：103.81req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 8
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:15+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.011724s][吞吐率：85.30req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 8
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:16+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.011534s][吞吐率：86.70req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 8
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:16+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.009420s][吞吐率：106.16req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 8
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:16+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.009085s][吞吐率：110.07req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 8
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:16+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.009093s][吞吐率：109.98req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 8
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:16+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.009546s][吞吐率：104.76req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 8
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:17+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.009585s][吞吐率：104.33req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 8
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:28+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.012990s][吞吐率：76.98req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:28+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.012033s][吞吐率：83.10req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:28+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.010334s][吞吐率：96.77req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:29+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.008520s][吞吐率：117.37req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:29+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.011596s][吞吐率：86.24req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:29+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.010730s][吞吐率：93.20req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:29+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.010908s][吞吐率：91.67req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:29+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.009936s][吞吐率：100.65req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:29+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.010580s][吞吐率：94.52req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:30+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.011001s][吞吐率：90.90req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:30+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.008970s][吞吐率：111.48req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:30+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.009669s][吞吐率：103.42req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:30+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.010672s][吞吐率：93.70req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:30+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.009547s][吞吐率：104.74req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:30+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.010447s][吞吐率：95.72req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:31+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.009936s][吞吐率：100.64req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:31+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.010144s][吞吐率：98.58req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:32+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.011699s][吞吐率：85.48req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:32+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.011806s][吞吐率：84.70req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:46:32+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.010258s][吞吐率：97.49req/s] [内存消耗：917.02kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T14:52:16+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/index.php/yunzhi/hi/yunzhier
+[ log ] 127.0.0.1:444/thinkphp5/public/index.php/yunzhi/hi/yunzhier [运行时间：0.012208s][吞吐率：81.91req/s] [内存消耗：916.80kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T15:45:11+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.011079s][吞吐率：90.26req/s] [内存消耗：916.95kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T15:45:12+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.009550s][吞吐率：104.71req/s] [内存消耗：916.95kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T15:45:12+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.008594s][吞吐率：116.36req/s] [内存消耗：916.95kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T15:45:12+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/yunzhi/Hi/yunzhier
+[ log ] localhost:444/thinkphp5/public/index.php/yunzhi/Hi/yunzhier [运行时间：0.009455s][吞吐率：105.76req/s] [内存消耗：916.95kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yunzhi',
+    1 => 'Hi',
+    2 => 'yunzhier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method yunzhier ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\yunzhi\controller\Hi.php 5 - 7
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T15:45:18+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.036166s][吞吐率：27.65req/s] [内存消耗：1,621.69kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015005s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.003584s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000404s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T15:51:49+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.021455s][吞吐率：46.61req/s] [内存消耗：1,621.85kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000733s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004784s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000383s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T15:51:49+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.040516s][吞吐率：24.68req/s] [内存消耗：1,621.85kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021190s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004502s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000371s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T15:51:50+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.034197s][吞吐率：29.24req/s] [内存消耗：1,621.85kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015186s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004469s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000377s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T15:51:50+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.040248s][吞吐率：24.85req/s] [内存消耗：1,621.85kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019880s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004557s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000508s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T15:51:50+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.018339s][吞吐率：54.53req/s] [内存消耗：1,621.85kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000881s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.003649s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000378s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T15:51:50+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.036651s][吞吐率：27.28req/s] [内存消耗：1,621.85kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018231s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004266s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000374s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T15:51:50+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.038028s][吞吐率：26.30req/s] [内存消耗：1,621.85kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019329s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004488s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000375s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T16:58:13+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/index.php/index/Teacher/index
+[ log ] 127.0.0.1:444/thinkphp5/public/index.php/index/Teacher/index [运行时间：0.011580s][吞吐率：86.36req/s] [内存消耗：916.77kb] [文件加载：22]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Teacher.php 7 - 10
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-12T20:53:58+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.037231s][吞吐率：26.86req/s] [内存消耗：1,621.85kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014918s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.005014s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000418s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T20:54:10+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.047096s][吞吐率：21.23req/s] [内存消耗：1,621.88kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021930s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004408s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000337s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T20:54:11+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.043287s][吞吐率：23.10req/s] [内存消耗：1,621.88kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023311s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.005110s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000379s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T20:54:18+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：2.077790s][吞吐率：0.48req/s] [内存消耗：1,675.87kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+[D:\xampp\htdocs\thinkphp5\thinkphp\library\think\db\Connection.php:277]
+
+---------------------------------------------------------------
+[ 2023-07-12T20:54:26+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.038014s][吞吐率：26.31req/s] [内存消耗：1,622.00kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017150s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.003569s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000238s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T21:40:06+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.021743s][吞吐率：45.99req/s] [内存消耗：1,622.00kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001389s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004418s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000395s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T21:40:06+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.020243s][吞吐率：49.40req/s] [内存消耗：1,622.00kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000844s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.003110s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000335s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T21:40:06+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.041101s][吞吐率：24.33req/s] [内存消耗：1,622.00kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022110s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004395s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000360s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T21:40:07+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.047679s][吞吐率：20.97req/s] [内存消耗：1,622.00kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024878s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004916s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000467s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T21:40:07+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.032654s][吞吐率：30.62req/s] [内存消耗：1,622.00kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010841s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.006894s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000469s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T21:40:07+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.045206s][吞吐率：22.12req/s] [内存消耗：1,622.00kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024984s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004518s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000382s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T21:40:07+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.035660s][吞吐率：28.04req/s] [内存消耗：1,622.00kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014946s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.003270s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000335s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T21:40:07+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.035209s][吞吐率：28.40req/s] [内存消耗：1,622.00kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014454s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004288s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000373s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T21:40:07+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.044739s][吞吐率：22.35req/s] [内存消耗：1,622.00kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024705s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004416s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000425s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T21:40:08+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.035103s][吞吐率：28.49req/s] [内存消耗：1,622.00kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016125s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004321s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000368s ]
+
+---------------------------------------------------------------
+[ 2023-07-12T21:40:08+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.039860s][吞吐率：25.09req/s] [内存消耗：1,622.00kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020625s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004358s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000361s ]
+
+---------------------------------------------------------------

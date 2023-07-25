@@ -1,0 +1,3785 @@
+[ 2023-07-13T09:47:03+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.061049s][吞吐率：16.38req/s] [内存消耗：1,621.99kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004679s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.017505s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000479s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T10:50:29+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.033786s][吞吐率：29.60req/s] [内存消耗：1,622.13kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001193s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.006618s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000353s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T10:50:31+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.046258s][吞吐率：21.62req/s] [内存消耗：1,622.13kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015141s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.006149s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000564s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T10:50:31+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.056030s][吞吐率：17.85req/s] [内存消耗：1,622.13kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020697s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.005888s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000530s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T10:50:31+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.018662s][吞吐率：53.58req/s] [内存消耗：1,622.13kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001047s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.002928s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000372s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T10:50:31+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.039375s][吞吐率：25.40req/s] [内存消耗：1,622.13kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019581s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004752s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000577s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T10:50:31+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.039985s][吞吐率：25.01req/s] [内存消耗：1,622.13kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020390s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004925s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000379s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T10:50:32+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.033856s][吞吐率：29.54req/s] [内存消耗：1,622.13kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014959s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004053s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000380s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T10:50:32+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.030779s][吞吐率：32.49req/s] [内存消耗：1,622.13kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011705s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004569s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000381s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T10:50:32+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.036725s][吞吐率：27.23req/s] [内存消耗：1,622.13kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Index.php 8 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018463s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004258s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000376s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T10:50:53+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.020990s][吞吐率：47.64req/s] [内存消耗：1,041.66kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [64]Cannot declare class app\index\controller\Teacher because the name is already in use[D:\xampp\htdocs\thinkphp5\application\index\controller\Teacher.php:6]
+
+---------------------------------------------------------------
+[ 2023-07-13T11:00:43+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.015057s][吞吐率：66.41req/s] [内存消耗：1,026.37kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T11:15:12+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.015582s][吞吐率：64.18req/s] [内存消耗：1,649.16kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Teacher.php 7 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T11:15:45+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.021776s][吞吐率：45.92req/s] [内存消耗：1,649.46kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\Teacher.php 7 - 11
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T14:29:43+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.043718s][吞吐率：22.87req/s] [内存消耗：1,858.58kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 7 - 12
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020300s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.003709s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000274s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T14:35:35+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.034795s][吞吐率：28.74req/s] [内存消耗：1,859.04kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 7 - 13
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001042s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.005110s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000298s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T14:50:04+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.077134s][吞吐率：12.96req/s] [内存消耗：1,978.28kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 7 - 17
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022077s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.008655s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000800s ]
+[ error ] [8]未定义变量: teacher[D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php:11]
+
+---------------------------------------------------------------
+[ 2023-07-13T14:50:13+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.049831s][吞吐率：20.07req/s] [内存消耗：1,858.59kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 7 - 17
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019968s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.003386s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000279s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T14:50:32+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.038658s][吞吐率：25.87req/s] [内存消耗：1,858.36kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 7 - 17
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016277s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004419s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.001366s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T14:50:45+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.015754s][吞吐率：63.48req/s] [内存消耗：1,028.29kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T14:50:59+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php
+[ log ] localhost:444/thinkphp5/public/index.php [运行时间：0.015795s][吞吐率：63.31req/s] [内存消耗：1,028.29kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T14:51:01+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.039513s][吞吐率：25.31req/s] [内存消耗：1,858.59kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 7 - 17
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018880s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004341s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000382s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T14:51:02+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.040281s][吞吐率：24.83req/s] [内存消耗：1,858.59kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 7 - 17
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010465s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.005797s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000355s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T14:51:17+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.047044s][吞吐率：21.26req/s] [内存消耗：1,858.36kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 7 - 17
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024108s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004500s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher` LIMIT 1   [ RunTime:0.000331s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:20:04+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.031277s][吞吐率：31.97req/s] [内存消耗：1,858.87kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 7 - 14
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001147s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.005823s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000577s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:20:21+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.035743s][吞吐率：27.98req/s] [内存消耗：1,859.34kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 7 - 15
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015679s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004508s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000381s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:28:12+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.023179s][吞吐率：43.14req/s] [内存消耗：1,859.54kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 7 - 18
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000901s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004264s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000377s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:49:36+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.024053s][吞吐率：41.57req/s] [内存消耗：1,859.54kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 7 - 18
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000986s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004362s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000391s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:49:37+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.032479s][吞吐率：30.79req/s] [内存消耗：1,859.54kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 7 - 18
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012502s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004245s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000380s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:49:41+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.051745s][吞吐率：19.33req/s] [内存消耗：2,281.51kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015484s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.003208s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000430s ]
+[ error ] [0]模板文件不存在:D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html[D:\xampp\htdocs\thinkphp5\thinkphp\library\think\view\driver\Think.php:78]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:53:56+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.058237s][吞吐率：17.17req/s] [内存消耗：2,327.58kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012794s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.007804s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000566s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:55:24+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.050331s][吞吐率：19.87req/s] [内存消耗：2,327.70kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024553s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.005203s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000381s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:55:24+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.036972s][吞吐率：27.05req/s] [内存消耗：2,172.89kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013874s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004785s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000377s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:55:24+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.039131s][吞吐率：25.56req/s] [内存消耗：2,172.89kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016583s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004366s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000369s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:56:07+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.073266s][吞吐率：13.65req/s] [内存消耗：2,327.75kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020670s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.007907s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000580s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:56:08+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.056107s][吞吐率：17.82req/s] [内存消耗：2,172.90kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020055s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004358s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000261s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:56:08+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.060138s][吞吐率：16.63req/s] [内存消耗：2,172.90kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022811s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.007943s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000571s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:56:08+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.062954s][吞吐率：15.88req/s] [内存消耗：2,172.90kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020979s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.008576s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000558s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:56:08+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.065243s][吞吐率：15.33req/s] [内存消耗：2,172.90kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023014s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.008643s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000556s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:56:09+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.066132s][吞吐率：15.12req/s] [内存消耗：2,172.90kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023138s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.008753s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000563s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:56:09+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.059565s][吞吐率：16.79req/s] [内存消耗：2,172.90kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018577s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.008063s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000537s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:56:09+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.050217s][吞吐率：19.91req/s] [内存消耗：2,172.90kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012404s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.005346s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000530s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:56:26+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.044593s][吞吐率：22.43req/s] [内存消耗：2,327.79kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018909s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004744s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000376s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:56:42+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.047144s][吞吐率：21.21req/s] [内存消耗：2,327.80kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021587s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004495s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000372s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:57:22+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.045440s][吞吐率：22.01req/s] [内存消耗：2,450.42kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013976s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.003078s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000371s ]
+[ error ] [8]Array to string conversion[D:\xampp\htdocs\thinkphp5\runtime\temp\de1038ef6a2a728583634e22a6d60bb0.php:5]
+
+---------------------------------------------------------------
+[ 2023-07-13T15:57:46+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.071186s][吞吐率：14.05req/s] [内存消耗：2,340.09kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024519s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.008270s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000548s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T16:03:38+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.054241s][吞吐率：18.44req/s] [内存消耗：2,340.14kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025043s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004265s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000382s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T16:03:38+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.045923s][吞吐率：21.78req/s] [内存消耗：2,176.34kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021735s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004376s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000367s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T16:03:39+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.049731s][吞吐率：20.11req/s] [内存消耗：2,176.34kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025503s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004783s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000412s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T16:03:39+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.044381s][吞吐率：22.53req/s] [内存消耗：2,176.34kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018734s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004767s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000463s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T16:03:39+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.041166s][吞吐率：24.29req/s] [内存消耗：2,176.34kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016312s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004358s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000376s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T16:03:39+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.046036s][吞吐率：21.72req/s] [内存消耗：2,176.34kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017586s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.005249s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000381s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T16:03:43+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.051622s][吞吐率：19.37req/s] [内存消耗：2,176.34kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016989s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.003735s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000397s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T16:17:48+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.063954s][吞吐率：15.64req/s] [内存消耗：2,328.66kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017115s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.005682s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000438s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T16:19:51+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.051417s][吞吐率：19.45req/s] [内存消耗：2,329.41kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023273s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004836s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000471s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T16:20:37+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.043186s][吞吐率：23.16req/s] [内存消耗：2,341.70kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015990s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004691s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000521s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T16:22:47+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.087281s][吞吐率：11.46req/s] [内存消耗：2,341.88kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025430s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.009288s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000632s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T16:26:23+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.078385s][吞吐率：12.76req/s] [内存消耗：2,341.98kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022303s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.005680s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000271s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T20:35:50+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.033767s][吞吐率：29.61req/s] [内存消耗：2,330.52kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000987s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004295s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000452s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T20:35:50+08:00 ] ::1 ::1 GET /thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css
+[ log ] localhost:444/thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css [运行时间：0.012052s][吞吐率：82.97req/s] [内存消耗：1,025.92kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-3.3.5-dist',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost:444/thinkphp5/public/index.php/index/Teacher',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T20:37:46+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.036713s][吞吐率：27.24req/s] [内存消耗：2,173.03kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012576s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.003994s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000467s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T20:37:46+08:00 ] ::1 ::1 GET /thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css
+[ log ] localhost:444/thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css [运行时间：0.012569s][吞吐率：79.56req/s] [内存消耗：1,025.66kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-3.3.5-dist',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost:444/thinkphp5/public/index.php/index/Teacher',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T20:38:57+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.029793s][吞吐率：33.56req/s] [内存消耗：2,331.43kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000799s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004911s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000464s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T20:38:57+08:00 ] ::1 ::1 GET /thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css
+[ log ] localhost:444/thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css [运行时间：0.012622s][吞吐率：79.23req/s] [内存消耗：1,025.66kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-3.3.5-dist',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost:444/thinkphp5/public/index.php/index/Teacher',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T20:38:57+08:00 ] ::1 ::1 GET /thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css
+[ log ] localhost:444/thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css [运行时间：0.011005s][吞吐率：90.87req/s] [内存消耗：1,025.66kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-3.3.5-dist',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost:444/thinkphp5/public/index.php/index/Teacher',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T20:38:57+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.027284s][吞吐率：36.65req/s] [内存消耗：2,173.03kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000716s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.005056s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000341s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T20:38:57+08:00 ] ::1 ::1 GET /thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css
+[ log ] localhost:444/thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css [运行时间：0.016355s][吞吐率：61.14req/s] [内存消耗：1,025.66kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-3.3.5-dist',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost:444/thinkphp5/public/index.php/index/Teacher',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T20:38:58+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.030719s][吞吐率：32.55req/s] [内存消耗：2,173.03kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000730s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004737s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000378s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T20:38:58+08:00 ] ::1 ::1 GET /thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css
+[ log ] localhost:444/thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css [运行时间：0.013844s][吞吐率：72.23req/s] [内存消耗：1,025.66kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-3.3.5-dist',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost:444/thinkphp5/public/index.php/index/Teacher',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T21:13:38+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.067570s][吞吐率：14.80req/s] [内存消耗：2,174.59kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014558s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.009266s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000521s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T21:13:38+08:00 ] ::1 ::1 GET /thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css
+[ log ] localhost:444/thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css [运行时间：0.019154s][吞吐率：52.21req/s] [内存消耗：1,025.66kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-3.3.5-dist',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost:444/thinkphp5/public/index.php/index/Teacher',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T21:13:52+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher/insert
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher/insert [运行时间：0.016142s][吞吐率：61.95req/s] [内存消耗：1,226.70kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+     * 插入新数据
+     * 
+     * @return html
+     */
+Method [ <user> public method insert ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 30 - 41
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T21:15:15+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.043576s][吞吐率：22.95req/s] [内存消耗：2,147.11kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015662s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.003081s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000403s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T21:15:45+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.062226s][吞吐率：16.07req/s] [内存消耗：2,145.60kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024326s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.005264s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000275s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T21:16:30+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.028142s][吞吐率：35.53req/s] [内存消耗：2,147.27kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000831s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.005083s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000404s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T21:19:03+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher/insert
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher/insert [运行时间：0.059800s][吞吐率：16.72req/s] [内存消耗：2,165.41kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+     * 插入新数据
+     * 
+     * @return html
+     */
+Method [ <user> public method insert ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 29 - 44
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022066s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004298s ]
+[ sql ] [ SQL ] INSERT INTO `yunzhi_teacher` (`name` , `username` , `sex` , `email`) VALUES ('王五' , 'wangwu' , 1 , 'wangwu@yunzhi.club')      [ RunTime:0.002656s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T21:19:31+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.026155s][吞吐率：38.23req/s] [内存消耗：2,178.01kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 22
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000769s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.003842s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000516s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T21:19:31+08:00 ] ::1 ::1 GET /thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css
+[ log ] localhost:444/thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css [运行时间：0.014297s][吞吐率：69.94req/s] [内存消耗：1,025.66kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-3.3.5-dist',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost:444/thinkphp5/public/index.php/index/Teacher',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T21:27:02+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.049891s][吞吐率：20.04req/s] [内存消耗：2,178.06kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 22
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001073s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.006164s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000504s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T21:27:02+08:00 ] ::1 ::1 GET /thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css
+[ log ] localhost:444/thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css [运行时间：0.018224s][吞吐率：54.87req/s] [内存消耗：1,025.66kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-3.3.5-dist',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost:444/thinkphp5/public/index.php/index/Teacher',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T21:27:19+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher/index
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher/index [运行时间：0.052660s][吞吐率：18.99req/s] [内存消耗：2,177.94kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 22
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022552s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004454s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000412s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T21:27:19+08:00 ] ::1 ::1 GET /thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css
+[ log ] localhost:444/thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css [运行时间：0.016998s][吞吐率：58.83req/s] [内存消耗：1,025.70kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-3.3.5-dist',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost:444/thinkphp5/public/index.php/index/Teacher/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T21:27:27+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher/insert
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher/insert [运行时间：0.049362s][吞吐率：20.26req/s] [内存消耗：2,165.25kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+     * 插入新数据
+     * 
+     * @return html
+     */
+Method [ <user> public method insert ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 29 - 44
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013096s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.006570s ]
+[ sql ] [ SQL ] INSERT INTO `yunzhi_teacher` (`name` , `username` , `sex` , `email`) VALUES ('王五' , 'wangwu' , 1 , 'wangwu@yunzhi.club')      [ RunTime:0.000507s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T21:38:44+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher/insert
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher/insert [运行时间：0.027376s][吞吐率：36.53req/s] [内存消耗：2,165.31kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+     * 插入新数据
+     * 
+     * @return html
+     */
+Method [ <user> public method insert ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 29 - 44
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000984s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004377s ]
+[ sql ] [ SQL ] INSERT INTO `yunzhi_teacher` (`name` , `username` , `sex` , `email`) VALUES ('王六' , 'wangwu' , 1 , 'wangwu@yunzhi.club')      [ RunTime:0.000407s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T21:40:33+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher/insert
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher/insert [运行时间：0.017785s][吞吐率：56.23req/s] [内存消耗：1,959.50kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+     * 插入新数据
+     * 
+     * @return html
+     */
+Method [ <user> public method insert ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 29 - 43
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T21:40:47+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher/insert
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher/insert [运行时间：0.058370s][吞吐率：17.13req/s] [内存消耗：2,165.39kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+     * 插入新数据
+     * 
+     * @return html
+     */
+Method [ <user> public method insert ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 29 - 43
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017394s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.007019s ]
+[ sql ] [ SQL ] INSERT INTO `yunzhi_teacher` (`name` , `username` , `sex` , `email`) VALUES ('王五' , 'wangwu' , 1 , 'wangwu@yunzhi.club')      [ RunTime:0.000558s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T21:41:56+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.047629s][吞吐率：21.00req/s] [内存消耗：2,185.83kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 22
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022182s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004494s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000350s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T21:41:56+08:00 ] ::1 ::1 GET /thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css
+[ log ] localhost:444/thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css [运行时间：0.013979s][吞吐率：71.53req/s] [内存消耗：1,025.92kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-3.3.5-dist',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost:444/thinkphp5/public/index.php/index/Teacher',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T22:04:08+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher/insert
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher/insert [运行时间：0.040994s][吞吐率：24.39req/s] [内存消耗：2,165.37kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+     * 插入新数据
+     * 
+     * @return html
+     */
+Method [ <user> public method insert ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 29 - 44
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000850s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.005571s ]
+[ sql ] [ SQL ] INSERT INTO `yunzhi_teacher` (`name` , `username` , `sex` , `email`) VALUES ('赵七' , 'zhaoqi' , 0 , 'zhaoqi@yunzhi.club')      [ RunTime:0.000409s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T22:04:11+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.030079s][吞吐率：33.25req/s] [内存消耗：2,188.48kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 22
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000922s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004839s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000408s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T22:04:11+08:00 ] ::1 ::1 GET /thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css
+[ log ] localhost:444/thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css [运行时间：0.014996s][吞吐率：66.68req/s] [内存消耗：1,025.66kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-3.3.5-dist',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost:444/thinkphp5/public/index.php/index/Teacher',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T22:04:48+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher/insert
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher/insert [运行时间：0.050353s][吞吐率：19.86req/s] [内存消耗：2,165.37kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+     * 插入新数据
+     * 
+     * @return html
+     */
+Method [ <user> public method insert ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 29 - 44
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023077s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.005086s ]
+[ sql ] [ SQL ] INSERT INTO `yunzhi_teacher` (`name` , `username` , `sex` , `email`) VALUES ('赵八' , 'zhaoqi' , 0 , 'zhaoqi@yunzhi.club')      [ RunTime:0.000480s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T22:04:51+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.024818s][吞吐率：40.29req/s] [内存消耗：2,191.18kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 22
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000760s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004716s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000478s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T22:04:51+08:00 ] ::1 ::1 GET /thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css
+[ log ] localhost:444/thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css [运行时间：0.013549s][吞吐率：73.81req/s] [内存消耗：1,025.66kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-3.3.5-dist',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost:444/thinkphp5/public/index.php/index/Teacher',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T22:06:51+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher/insert
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher/insert [运行时间：0.046726s][吞吐率：21.40req/s] [内存消耗：2,165.37kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+     * 插入新数据
+     * 
+     * @return html
+     */
+Method [ <user> public method insert ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 29 - 44
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011561s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.004786s ]
+[ sql ] [ SQL ] INSERT INTO `yunzhi_teacher` (`name` , `username` , `sex` , `email`) VALUES ('赵九' , 'zhaoqi' , 0 , 'zhaoqi@yunzhi.club')      [ RunTime:0.000379s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T22:07:14+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher [运行时间：0.046859s][吞吐率：21.34req/s] [内存消耗：2,193.90kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 10 - 22
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\index.html [ array (
+  0 => 'teachers',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013618s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_teacher` [ RunTime:0.005929s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_teacher`  [ RunTime:0.000535s ]
+
+---------------------------------------------------------------
+[ 2023-07-13T22:07:14+08:00 ] ::1 ::1 GET /thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css
+[ log ] localhost:444/thinkphp5/public/static/bootstrap-3.3.5-dist/css/bootstrap.min.css [运行时间：0.016160s][吞吐率：61.88req/s] [内存消耗：1,025.66kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-3.3.5-dist',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost:444/thinkphp5/public/index.php/index/Teacher',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T23:54:25+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher/add
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher/add [运行时间：0.020674s][吞吐率：48.37req/s] [内存消耗：1,338.30kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T23:56:38+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Teacher/add
+[ log ] localhost:444/thinkphp5/public/index/Teacher/add [运行时间：0.018303s][吞吐率：54.64req/s] [内存消耗：1,338.02kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T23:58:54+08:00 ] ::1 ::1 GET /thinkphp5/public/index.php/index/Teacher/add
+[ log ] localhost:444/thinkphp5/public/index.php/index/Teacher/add [运行时间：0.016924s][吞吐率：59.09req/s] [内存消耗：1,386.35kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 49 - 53
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-13T23:58:56+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Teacher/add
+[ log ] localhost:444/thinkphp5/public/index/Teacher/add [运行时间：0.012947s][吞吐率：77.24req/s] [内存消耗：1,230.03kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\TeacherController.php 49 - 53
+}
+
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\teacher\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

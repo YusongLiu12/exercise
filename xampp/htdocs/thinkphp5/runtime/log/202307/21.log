@@ -1,0 +1,2425 @@
+[ 2023-07-21T11:15:50+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Teacher/insert
+[ log ] localhost:444/thinkphp5/public/index/Teacher/insert [运行时间：0.033786s][吞吐率：29.60req/s] [内存消耗：1,026.62kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Teacher',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-21T11:15:57+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.017924s][吞吐率：55.79req/s] [内存消耗：1,041.49kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [64]Cannot declare class app\index\controller\Project because the name is already in use[D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php:9]
+
+---------------------------------------------------------------
+[ 2023-07-21T11:16:36+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.024917s][吞吐率：40.13req/s] [内存消耗：1,796.99kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 10 - 35
+}
+
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Course' not found[D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php:18]
+
+---------------------------------------------------------------
+[ 2023-07-21T11:51:09+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.056592s][吞吐率：17.67req/s] [内存消耗：2,120.57kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 10 - 35
+}
+
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021814s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004177s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000361s ]
+[ error ] [0]method not exist:think\db\Query->assign[D:\xampp\htdocs\thinkphp5\thinkphp\library\think\db\Query.php:95]
+
+---------------------------------------------------------------
+[ 2023-07-21T11:54:40+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.053390s][吞吐率：18.73req/s] [内存消耗：2,120.47kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023177s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004570s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000358s ]
+[ error ] [0]method not exist:think\db\Query->assign[D:\xampp\htdocs\thinkphp5\thinkphp\library\think\db\Query.php:95]
+
+---------------------------------------------------------------
+[ 2023-07-21T11:54:41+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.046880s][吞吐率：21.33req/s] [内存消耗：2,120.47kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020649s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004372s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000361s ]
+[ error ] [0]method not exist:think\db\Query->assign[D:\xampp\htdocs\thinkphp5\thinkphp\library\think\db\Query.php:95]
+
+---------------------------------------------------------------
+[ 2023-07-21T11:54:41+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.043762s][吞吐率：22.85req/s] [内存消耗：2,120.47kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015746s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004631s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000415s ]
+[ error ] [0]method not exist:think\db\Query->assign[D:\xampp\htdocs\thinkphp5\thinkphp\library\think\db\Query.php:95]
+
+---------------------------------------------------------------
+[ 2023-07-21T11:55:39+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.050686s][吞吐率：19.73req/s] [内存消耗：2,120.47kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020013s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.005766s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000391s ]
+[ error ] [0]method not exist:think\db\Query->assign[D:\xampp\htdocs\thinkphp5\thinkphp\library\think\db\Query.php:95]
+
+---------------------------------------------------------------
+[ 2023-07-21T11:55:40+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.042290s][吞吐率：23.65req/s] [内存消耗：2,120.47kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010927s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.005729s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000600s ]
+[ error ] [0]method not exist:think\db\Query->assign[D:\xampp\htdocs\thinkphp5\thinkphp\library\think\db\Query.php:95]
+
+---------------------------------------------------------------
+[ 2023-07-21T11:55:40+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.042598s][吞吐率：23.48req/s] [内存消耗：2,120.47kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013473s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.005201s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000369s ]
+[ error ] [0]method not exist:think\db\Query->assign[D:\xampp\htdocs\thinkphp5\thinkphp\library\think\db\Query.php:95]
+
+---------------------------------------------------------------
+[ 2023-07-21T11:55:40+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.029503s][吞吐率：33.90req/s] [内存消耗：2,120.47kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000940s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004720s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000364s ]
+[ error ] [0]method not exist:think\db\Query->assign[D:\xampp\htdocs\thinkphp5\thinkphp\library\think\db\Query.php:95]
+
+---------------------------------------------------------------
+[ 2023-07-21T11:56:57+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.066252s][吞吐率：15.09req/s] [内存消耗：2,640.82kb] [文件加载：52]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023532s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.002992s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000375s ]
+[ error ] [8]未定义变量: teachers[D:\xampp\htdocs\thinkphp5\runtime\temp\2403acac08200d342bf67bd8e2ef5bc1.php:54]
+
+---------------------------------------------------------------
+[ 2023-07-21T11:57:29+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.049907s][吞吐率：20.04req/s] [内存消耗：2,520.10kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019139s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004636s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000315s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T11:59:49+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.049975s][吞吐率：20.01req/s] [内存消耗：2,523.56kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012465s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.003873s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000408s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T12:07:46+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.053636s][吞吐率：18.64req/s] [内存消耗：2,523.47kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019132s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.003911s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000328s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T12:44:17+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.033833s][吞吐率：29.56req/s] [内存消耗：2,523.57kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000915s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004340s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000340s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T12:44:59+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.044535s][吞吐率：22.45req/s] [内存消耗：2,523.59kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013227s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.005303s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000483s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T12:46:08+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.052429s][吞吐率：19.07req/s] [内存消耗：2,523.70kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023417s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004516s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000407s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T12:47:35+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.046353s][吞吐率：21.57req/s] [内存消耗：2,523.90kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013264s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004737s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000332s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T12:48:32+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.052341s][吞吐率：19.11req/s] [内存消耗：2,524.39kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021231s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.005053s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000499s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T12:49:02+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.052145s][吞吐率：19.18req/s] [内存消耗：2,523.70kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022555s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.005461s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000406s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T12:49:11+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.048336s][吞吐率：20.69req/s] [内存消耗：2,523.71kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018581s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004387s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000586s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T12:49:22+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.047809s][吞吐率：20.92req/s] [内存消耗：2,523.70kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018808s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004689s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000401s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T12:53:56+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.045474s][吞吐率：21.99req/s] [内存消耗：2,523.80kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012319s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.005280s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000406s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T12:54:48+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.051461s][吞吐率：19.43req/s] [内存消耗：2,524.06kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021095s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.005590s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000448s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T12:55:21+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.046933s][吞吐率：21.31req/s] [内存消耗：2,523.70kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017525s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004409s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000333s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:02:05+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.060423s][吞吐率：16.55req/s] [内存消耗：2,523.98kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025971s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004566s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000529s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:24:58+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.035271s][吞吐率：28.35req/s] [内存消耗：2,355.79kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000944s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.003887s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000323s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:24:59+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.052560s][吞吐率：19.03req/s] [内存消耗：2,355.79kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021554s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.006516s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000612s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:24:59+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.042865s][吞吐率：23.33req/s] [内存消耗：2,355.79kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014682s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004515s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000364s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:24:59+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.039666s][吞吐率：25.21req/s] [内存消耗：2,355.79kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011989s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004970s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000360s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:25:36+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.054478s][吞吐率：18.36req/s] [内存消耗：2,524.01kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025704s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.003951s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000369s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:25:36+08:00 ] ::1 ::1 GET /thinkphp5/public/static/img/bootstrap.svg
+[ log ] localhost:444/thinkphp5/public/static/img/bootstrap.svg [运行时间：0.014589s][吞吐率：68.54req/s] [内存消耗：1,025.85kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'img',
+    2 => 'bootstrap.svg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost:444/thinkphp5/public/index/Project',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-21T13:25:55+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.045058s][吞吐率：22.19req/s] [内存消耗：2,523.77kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014749s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004417s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000366s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:26:15+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.040660s][吞吐率：24.59req/s] [内存消耗：2,523.76kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011322s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004408s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000368s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:28:55+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.051668s][吞吐率：19.35req/s] [内存消耗：2,355.77kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020884s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004243s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000436s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:28:55+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.027942s][吞吐率：35.79req/s] [内存消耗：2,355.77kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000838s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004580s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000388s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:28:55+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.044553s][吞吐率：22.45req/s] [内存消耗：2,355.77kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017996s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.003999s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000399s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:28:56+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.037409s][吞吐率：26.73req/s] [内存消耗：2,355.77kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010560s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004244s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000392s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:29:31+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.039264s][吞吐率：25.47req/s] [内存消耗：2,524.00kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010410s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004299s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000370s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:32:47+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.049026s][吞吐率：20.40req/s] [内存消耗：2,524.03kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014796s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004404s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000365s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:34:07+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.053214s][吞吐率：18.79req/s] [内存消耗：2,524.02kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022410s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.005589s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000427s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:34:27+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.030571s][吞吐率：32.71req/s] [内存消耗：2,524.01kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000973s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004288s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000389s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:36:22+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.048798s][吞吐率：20.49req/s] [内存消耗：2,524.03kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015848s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004338s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000412s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:37:19+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.048865s][吞吐率：20.46req/s] [内存消耗：2,524.06kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019302s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004269s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000557s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:37:28+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.040511s][吞吐率：24.68req/s] [内存消耗：2,524.03kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010702s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004349s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000553s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:37:38+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.043733s][吞吐率：22.87req/s] [内存消耗：2,523.99kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014287s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004210s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000432s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:37:50+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.045372s][吞吐率：22.04req/s] [内存消耗：2,524.03kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015567s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004499s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000364s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:38:27+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.060948s][吞吐率：16.41req/s] [内存消耗：2,523.98kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025611s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004651s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000655s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:38:38+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.054724s][吞吐率：18.27req/s] [内存消耗：2,524.01kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023442s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004908s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000367s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:40:03+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.053185s][吞吐率：18.80req/s] [内存消耗：2,523.98kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024491s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.003822s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000338s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:40:16+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.040033s][吞吐率：24.98req/s] [内存消耗：2,523.98kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010228s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004390s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000347s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:40:44+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.052535s][吞吐率：19.03req/s] [内存消耗：2,524.05kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016762s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004279s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000346s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:40:48+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project?
+[ log ] localhost:444/thinkphp5/public/index/Project? [运行时间：0.039928s][吞吐率：25.04req/s] [内存消耗：2,355.86kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:444/thinkphp5/public/index/Project',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011920s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004777s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000341s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:40:53+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project
+[ log ] localhost:444/thinkphp5/public/index/Project [运行时间：0.044391s][吞吐率：22.53req/s] [内存消耗：2,355.74kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015147s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.003931s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000401s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:40:55+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project?
+[ log ] localhost:444/thinkphp5/public/index/Project? [运行时间：0.051682s][吞吐率：19.35req/s] [内存消耗：2,355.86kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:444/thinkphp5/public/index/Project',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024769s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004297s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000363s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:43:59+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project?
+[ log ] localhost:444/thinkphp5/public/index/Project? [运行时间：0.054672s][吞吐率：18.29req/s] [内存消耗：2,524.18kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:444/thinkphp5/public/index/Project',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021283s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.005019s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000372s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:44:16+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project?
+[ log ] localhost:444/thinkphp5/public/index/Project? [运行时间：0.030937s][吞吐率：32.32req/s] [内存消耗：2,524.20kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:444/thinkphp5/public/index/Project',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001068s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.004759s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000498s ]
+
+---------------------------------------------------------------
+[ 2023-07-21T13:44:25+08:00 ] ::1 ::1 GET /thinkphp5/public/index/Project?
+[ log ] localhost:444/thinkphp5/public/index/Project? [运行时间：0.039053s][吞吐率：25.61req/s] [内存消耗：2,524.18kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:444',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:444/thinkphp5/public/index/Project',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\xampp\htdocs\thinkphp5\application\index\controller\ProjectController.php 11 - 36
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html [ array (
+  0 => 'Projects',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010439s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yunzhi_project` [ RunTime:0.002980s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 1    [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `yunzhi_project` WHERE  `project_name` LIKE '%%' LIMIT 0,5    [ RunTime:0.000397s ]
+
+---------------------------------------------------------------
