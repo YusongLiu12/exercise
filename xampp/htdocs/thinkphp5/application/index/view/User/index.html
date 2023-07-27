@@ -8,6 +8,12 @@
         <button class="btn btn-primary bi-search" type="submit">&nbsp查询</button>
     </form>
 {/block}
+{block name="add"}
+    <div class="offset-6 col-md-2 text-right" 
+        <?php if($User->access_level === '用户') echo "hidden"; ?>>
+        <a class="text-right btn btn-primary bi-journal-plus" href="{:url('add')}">&nbsp{$add_keyword}</a>
+    </div>
+{/block}
 {block name="content"}
     <table class="table table-hover table-bordered">
         <tr class="info">
@@ -23,12 +29,24 @@
             <td>{$key}</td>
             <td>{$_user->getData('username')}</td>
             <td>{$_user->getData('name')}</td>
-            <td>{eq name="_user->getData('access_level')" value="0"}用户{else /}管理员{/eq}</td>
+            <td>{$_user->access_level}</td>
             <td {eq name="$_SESSION['think']['user']->getData('access_level')" value="0"}hidden{/eq}>{$_user->getData('password')}</td>
             <td>
-                <a class="btn btn-sm btn-info bi-eye" href="{:url('delete?id=' . $_user->getData('id'))}">&nbsp参与项目</a>
-                <a {eq name="$_SESSION['think']['user']->getData('access_level')" value="0"}hidden{/eq} class="btn btn-sm btn-primary bi-pencil-square" href="{:url('edit?id=' . $_user->getData('id'))}">&nbsp编辑</a>
-                <a {eq name="$_SESSION['think']['user']->getData('access_level')" value="0"}hidden{/eq} class="btn btn-sm btn-danger bi-trash" href="{:url('delete?id=' . $_user->getData('id'))}">&nbsp删除</a>
+                <div class="btn btn-sm dropdown">
+                    <button class="btn btn-info btn-sm dropdown-toggle bi-eye" type="button" data-toggle="dropdown" aria-expanded="false">
+                    参与项目
+                    </button>
+                    <div class="dropdown-menu">
+                        <?php foreach($_user->getJoinedProjects() as $joined_project): ?>
+                        <small class="dropdown-item">{$joined_project}</small>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+                <!--如果当前登录用户是管理员，则显示编辑和删除操作-->
+                <?php if(($User->access_level === '管理员') || ($User->getData('id') === $_user->getData('id'))): ?>
+                <a class="btn btn-sm btn-primary bi-pencil-square" href="{:url('edit?id=' . $_user->getData('id'))}">&nbsp编辑</a>
+                <a class="btn btn-sm btn-danger bi-trash" href="{:url('delete?id=' . $_user->getData('id'))}">&nbsp删除</a>
+                <?php endif; ?>
             </td>
         </tr>
         {/volist}

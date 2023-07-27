@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:77:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html";i:1690300867;s:69:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\index.html";i:1690295273;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:77:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html";i:1690480456;s:69:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\index.html";i:1690444245;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
@@ -23,10 +23,7 @@
     <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/css/bootstrap-reboot.css">
     <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/js/bootstrap.bundle.js">
-    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js">
-    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/js/bootstrap.js">
-    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/js/bootstrap.min.js">
+
 
     <!--include icon css-->
     <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
@@ -52,7 +49,7 @@
                 <a class="nav-link" href="<?php echo url('User/index'); ?>">用户管理</a>
                 </li>
                 </ul>
-                
+
                 <div class="dropdown">
                     <button class="btn btn-primary dropdown-toggle bi-person-fill" type="button" data-toggle="dropdown" aria-expanded="false">
                     欢迎您，<?php echo $_SESSION['think']['user']->getData('name'); if($_SESSION['think']['user']->getData('access_level') == '0'): ?>用户<?php else: ?>管理员<?php endif; ?>
@@ -78,9 +75,11 @@
     </form>
 
         </div>
+        
         <div class="offset-6 col-md-2 text-right">
             <a class="text-right btn btn-primary bi-journal-plus" href="<?php echo url('add'); ?>">&nbsp<?php echo $add_keyword; ?></a>
         </div>
+        
     </div>
     <hr />
     <div class="row">
@@ -95,25 +94,40 @@
             <th>操作</th>
         </tr>
         <?php $_SESSION['key'] = 1; if(is_array($Projects) || $Projects instanceof \think\Collection): $key = 0; $__LIST__ = $Projects;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$_project): $mod = ($key % 2 );++$key;?>
-        <!--如果项目公开或者登陆用户为项目成员)，则显示该项目-->
-        <?php if(($_project->getData('access_type') === 0) || in_array($_project->getData('id'), $_SESSION['think']['joined_projects'])): ?>
         <tr>
             <td><?php echo $_SESSION['key']++; ?></td>
             <td><?php echo $_project->getData('project_name'); ?></td>
             <td><?php echo $User->getNameById($_project->getData('create_user')); ?></td>
-            <td><?php if($_project->getData('access_type') == '0'): ?>公开<?php else: ?>私有<?php endif; ?></td>
+            <td><?php if($_project->access_type == '公开'): ?>公开<?php else: ?>私有<?php endif; ?></td>
             <td>
+                <div class="btn btn-sm dropdown">
+                    <button class="btn btn-info btn-sm dropdown-toggle bi-eye" type="button" data-toggle="dropdown" aria-expanded="false">
+                    项目成员
+                    </button>
+                    <div class="dropdown-menu">
+                        <?php foreach($_project->getMemberNames() as $_user): ?>
+                        <small class="dropdown-item"><?php echo $_user; ?></small>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+                <?php if(in_array($_project->getData('id'), $joined_projects)): ?>
                 <a class="btn btn-sm btn-primary bi-list-task" href="<?php echo url('Task/index?id=' . $_project->getData('id')); ?>">&nbsp任务</a>
-                <a <?php if($_SESSION['think']['user']->getData('access_level') == '0'): ?>hidden<?php endif; ?> class="btn btn-sm btn-info bi-pencil-square" href="<?php echo url('edit?id=' . $_project->getData('id')); ?>">&nbsp编辑</a>
-                <a <?php if($_SESSION['think']['user']->getData('access_level') == '0'): ?>hidden<?php endif; ?> class="btn btn-sm btn-danger bi-trash" href="<?php echo url('delete?id=' . $_project->getData('id')); ?>">&nbsp删除</a>
-                <?php if(in_array($_project->getData('id'), $_SESSION['think']['joined_projects'])): ?>
-                <a class="btn btn-sm btn-secondary bi-person-slash disable">&nbsp已加入</a>
-                <?php else: ?>
+                <?php elseif($_project->access_type === '公开'): ?>
                 <a class="btn btn-sm btn-success bi-person-add" href="<?php echo url('project_join?id=' . $_project->getData('id')); ?>">&nbsp加入</a>
+                <?php else: ?>
+                <a disabled class="btn btn-sm btn-secondary bi-person-exclamation">&nbsp不可加入</a>
                 <?php endif; ?>
+                <!--如果当前登录用户为管理员或者该项目创建者)，则显示编辑和删除操作-->
+                <?php if(($User->access_level === '管理员') || ($User->getData('id') === $_project->getData('create_user'))): ?>
+                <a class="btn btn-sm btn-info bi-pencil-square" href="<?php echo url('edit?id=' . $_project->getData('id')); ?>">&nbsp编辑</a>
+                <a class="btn btn-sm btn-danger bi-trash" href="<?php echo url('delete?id=' . $_project->getData('id')); ?>">&nbsp删除</a>
+                <?php endif; if($_project->getData('create_user') === $User->getData('id')): ?>
+                <a class="btn btn-sm btn-success bi-pencil-square" href="<?php echo url('invite?id=' . $_project->getData('id')); ?>">&nbsp邀请</a>
+                <?php endif; ?>
+                
             </td>
         </tr>
-        <?php endif; endforeach; endif; else: echo "" ;endif; ?>
+        <?php endforeach; endif; else: echo "" ;endif; ?>
     </table>
 
             

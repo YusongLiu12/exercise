@@ -19,25 +19,40 @@
         </tr>
         <?php $_SESSION['key'] = 1; ?>
         {volist name="Projects" id="_project" key="key"}
-        <!--如果项目公开或者登陆用户为项目成员)，则显示该项目-->
-        <?php if(($_project->getData('access_type') === 0) || in_array($_project->getData('id'), $_SESSION['think']['joined_projects'])): ?>
         <tr>
             <td>{$_SESSION['key']++}</td>
             <td>{$_project->getData('project_name')}</td>
             <td><?php echo $User->getNameById($_project->getData('create_user')); ?></td>
-            <td>{eq name="_project->getData('access_type')" value='0'}公开{else /}私有{/eq}</td>
+            <td>{eq name="$_project->access_type" value='公开'}公开{else /}私有{/eq}</td>
             <td>
+                <div class="btn btn-sm dropdown">
+                    <button class="btn btn-info btn-sm dropdown-toggle bi-eye" type="button" data-toggle="dropdown" aria-expanded="false">
+                    项目成员
+                    </button>
+                    <div class="dropdown-menu">
+                        <?php foreach($_project->getMemberNames() as $_user): ?>
+                        <small class="dropdown-item">{$_user}</small>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+                <?php if(in_array($_project->getData('id'), $joined_projects)): ?>
                 <a class="btn btn-sm btn-primary bi-list-task" href="{:url('Task/index?id=' . $_project->getData('id'))}">&nbsp任务</a>
-                <a {eq name="$_SESSION['think']['user']->getData('access_level')" value="0"}hidden{/eq} class="btn btn-sm btn-info bi-pencil-square" href="{:url('edit?id=' . $_project->getData('id'))}">&nbsp编辑</a>
-                <a {eq name="$_SESSION['think']['user']->getData('access_level')" value="0"}hidden{/eq} class="btn btn-sm btn-danger bi-trash" href="{:url('delete?id=' . $_project->getData('id'))}">&nbsp删除</a>
-                <?php if(in_array($_project->getData('id'), $_SESSION['think']['joined_projects'])): ?>
-                <a class="btn btn-sm btn-secondary bi-person-slash disable">&nbsp已加入</a>
-                <?php else: ?>
+                <?php elseif($_project->access_type === '公开'): ?>
                 <a class="btn btn-sm btn-success bi-person-add" href="{:url('project_join?id=' . $_project->getData('id'))}">&nbsp加入</a>
+                <?php else: ?>
+                <a disabled class="btn btn-sm btn-secondary bi-person-exclamation">&nbsp不可加入</a>
                 <?php endif; ?>
+                <!--如果当前登录用户为管理员或者该项目创建者)，则显示编辑和删除操作-->
+                <?php if(($User->access_level === '管理员') || ($User->getData('id') === $_project->getData('create_user'))): ?>
+                <a class="btn btn-sm btn-info bi-pencil-square" href="{:url('edit?id=' . $_project->getData('id'))}">&nbsp编辑</a>
+                <a class="btn btn-sm btn-danger bi-trash" href="{:url('delete?id=' . $_project->getData('id'))}">&nbsp删除</a>
+                <?php endif; ?>
+                <?php if($_project->getData('create_user') === $User->getData('id')): ?>
+                <a class="btn btn-sm btn-success bi-pencil-square" href="{:url('invite?id=' . $_project->getData('id'))}">&nbsp邀请</a>
+                <?php endif; ?>
+                
             </td>
         </tr>
-        <?php endif; ?>
         {/volist}
     </table>
 {/block}

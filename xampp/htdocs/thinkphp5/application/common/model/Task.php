@@ -18,4 +18,26 @@ class Task extends Model
             $status_string = '已结束';
         return $status_string;
     }
+
+    public function getStatusAttr($value)
+    {
+        $status = array('0'=>'未开始','1'=>'进行中', '2'=>'已结束');
+        $status_string = $status[$value];
+        if (isset($status_string))
+        {
+            return $status_string;
+        } else {
+            return $status[0];
+        }
+    } 
+
+    public function getStartTimeAttr($value)
+    {
+        return date('Y年m月d日H时i分', strtotime($value));
+    }
+
+    public function getEndTimeAttr($value)
+    {
+        return date('Y年m月d日H时i分', strtotime($value));
+    }
 }

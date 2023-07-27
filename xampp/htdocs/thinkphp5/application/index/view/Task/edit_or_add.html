@@ -6,9 +6,11 @@
 {php}$action = request()->action() === 'add' ? 'save' : 'update';{/php}
 <form action="{:url($action)}" method="POST"> 
     <input type="hidden" name="id" value="{$Task->id}" />
+    <input type="hidden" name="project_id" value="{$Project->id}" />
     <div class="form-group">
-        <label for="Task_name">任务标题</label>
-        <input type="text" class="form-control" id="username" aria-describedby="请输入项目名称" name="Task_name">
+        <label for="task_title">任务标题</label>
+        <input <?php if($Project->getData('create_user') !== $User->getData('id')) echo"disabled"; ?>
+         type="text" class="form-control" id="username" placeholder="请输入任务标题" name="task_title" value="{$Task->task_title}">
     </div>
     <div class="form-group">
         <label>任务状态:</label>
@@ -18,15 +20,25 @@
             <option value="2" {eq name="$Task->status" value="2" }selected="selected"{/eq}>已结束</option>
         </select>
     </div>
-    <div class="form-group" 
-    <?php if($_SESSION['think']['project']->getData('create_user') !== $_SESSION['think']['user']->getData('id')) echo "hidden"; ?>>
+
+    <?php if($Project->getData('create_user') === $User->getData('id')): ?>
+    <div class="form-group">        
         <label>负责人:</label>
         <select class="" name="leader_id">
-            {volist name="joined_users" id='_user_id'}
-            <option value="$_user_id" {eq name="$Task->leader_id" value="$_user_id" }selected="selected"{/eq}><?php echo $User->getNameById($_user_id); ?></option>
+            {volist name="$joined_users" id='_user_id'}
+            <option value="{$_user_id} " {eq name="$Task->leader_id" value="$_user_id" }selected="selected"{/eq}><?php echo $User->getNameById($_user_id); ?></option>
             {/volist}
         </select>
     </div>
+    <div class="form-group">
+        <label for="strat_time">任务开始时间</label>
+        <input type="datetime-local" class="form-control" id="start_time" aria-describedby="请选择任务开始时间" name="start_time" value="{$Task->getData('start_time')}">
+    </div>
+    <div class="form-group">
+        <label for="end_time">任务结束时间</label>
+        <input type="datetime-local" class="form-control" id="end_time" aria-describedby="请选择任务结束时间" name="end_time" value="{$Task->getData('end_time')}">
+    </div>
+    <?php endif; ?>
     <button type="submit" class="btn btn-primary">保存</button>
 </form>
 {/block}

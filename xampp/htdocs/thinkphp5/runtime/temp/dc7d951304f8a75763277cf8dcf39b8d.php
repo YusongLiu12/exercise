@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:74:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\user\index.html";i:1690273199;s:69:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\index.html";i:1690273108;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:74:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\user\index.html";i:1690477321;s:69:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\index.html";i:1690444245;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
@@ -23,10 +23,7 @@
     <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/css/bootstrap-reboot.css">
     <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/js/bootstrap.bundle.js">
-    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js">
-    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/js/bootstrap.js">
-    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/js/bootstrap.min.js">
+
 
     <!--include icon css-->
     <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
@@ -52,7 +49,7 @@
                 <a class="nav-link" href="<?php echo url('User/index'); ?>">用户管理</a>
                 </li>
                 </ul>
-                
+
                 <div class="dropdown">
                     <button class="btn btn-primary dropdown-toggle bi-person-fill" type="button" data-toggle="dropdown" aria-expanded="false">
                     欢迎您，<?php echo $_SESSION['think']['user']->getData('name'); if($_SESSION['think']['user']->getData('access_level') == '0'): ?>用户<?php else: ?>管理员<?php endif; ?>
@@ -78,9 +75,12 @@
     </form>
 
         </div>
-        <div class="offset-6 col-md-2 text-right">
-            <a class="text-right btn btn-primary bi-journal-plus" href="<?php echo url('add'); ?>">&nbsp<?php echo $add_keyword; ?></a>
-        </div>
+        
+    <div class="offset-6 col-md-2 text-right" 
+        <?php if($User->access_level === '用户') echo "hidden"; ?>>
+        <a class="text-right btn btn-primary bi-journal-plus" href="<?php echo url('add'); ?>">&nbsp<?php echo $add_keyword; ?></a>
+    </div>
+
     </div>
     <hr />
     <div class="row">
@@ -100,12 +100,24 @@
             <td><?php echo $key; ?></td>
             <td><?php echo $_user->getData('username'); ?></td>
             <td><?php echo $_user->getData('name'); ?></td>
-            <td><?php if($_user->getData('access_level') == '0'): ?>用户<?php else: ?>管理员<?php endif; ?></td>
+            <td><?php echo $_user->access_level; ?></td>
             <td <?php if($_SESSION['think']['user']->getData('access_level') == '0'): ?>hidden<?php endif; ?>><?php echo $_user->getData('password'); ?></td>
             <td>
-                <a class="btn btn-sm btn-info bi-eye" href="<?php echo url('delete?id=' . $_user->getData('id')); ?>">&nbsp参与项目</a>
-                <a <?php if($_SESSION['think']['user']->getData('access_level') == '0'): ?>hidden<?php endif; ?> class="btn btn-sm btn-primary bi-pencil-square" href="<?php echo url('edit?id=' . $_user->getData('id')); ?>">&nbsp编辑</a>
-                <a <?php if($_SESSION['think']['user']->getData('access_level') == '0'): ?>hidden<?php endif; ?> class="btn btn-sm btn-danger bi-trash" href="<?php echo url('delete?id=' . $_user->getData('id')); ?>">&nbsp删除</a>
+                <div class="btn btn-sm dropdown">
+                    <button class="btn btn-info btn-sm dropdown-toggle bi-eye" type="button" data-toggle="dropdown" aria-expanded="false">
+                    参与项目
+                    </button>
+                    <div class="dropdown-menu">
+                        <?php foreach($_user->getJoinedProjects() as $joined_project): ?>
+                        <small class="dropdown-item"><?php echo $joined_project; ?></small>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+                <!--如果当前登录用户是管理员，则显示编辑和删除操作-->
+                <?php if(($User->access_level === '管理员') || ($User->getData('id') === $_user->getData('id'))): ?>
+                <a class="btn btn-sm btn-primary bi-pencil-square" href="<?php echo url('edit?id=' . $_user->getData('id')); ?>">&nbsp编辑</a>
+                <a class="btn btn-sm btn-danger bi-trash" href="<?php echo url('delete?id=' . $_user->getData('id')); ?>">&nbsp删除</a>
+                <?php endif; ?>
             </td>
         </tr>
         <?php endforeach; endif; else: echo "" ;endif; ?>

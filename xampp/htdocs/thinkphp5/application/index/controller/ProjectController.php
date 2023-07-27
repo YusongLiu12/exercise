@@ -9,17 +9,13 @@ use think\Request;
 /**
  * 项目管理
  */
-class ProjectController extends Controller
+class ProjectController extends IndexController
 {
     public function __construct()
     {
         // 调用父类构造函数(必须)
         parent::__construct();
 
-        // 验证用户是否登陆
-        if (!User::isLogin()) {
-            return $this->error('plz login first', url('Login/index'));
-        }
         $_SESSION['now_controller'] = 'Project';
     }
 
@@ -27,12 +23,15 @@ class ProjectController extends Controller
     {
         // 实例化
         $Project = new Project;
+        $User = $_SESSION['think']['user'];
 
         // 设置默认值
         $Project->id = 0;
         $Project->project_name = '';
         $Project->access_type = 0;
+        $Project->create_user = 0;
         $this->assign('Project', $Project);
+        $this->assign('User', $User);
         // 调用edit模板
         return $this->fetch('edit_or_add');
     }
@@ -53,15 +52,24 @@ class ProjectController extends Controller
 
             // 获取要删除的对象
             $Project = Project::get($id);
+            $ProjectUser = new ProjectUser;
+            $inside_users_PUdatas = $ProjectUser->where('project_id', '=', $id)->select();
 
             // 要删除的对象存在
             if (is_null($Project)) {
-                throw new \Exception('不存在id为' . $id . '的教师，删除失败', 1);
+                throw new \Exception('不存在id为' . $id . '的项目，删除失败', 1);
             }
 
             // 删除对象
             if (!$Project->delete()) {
                 return $this->error('删除失败:' . $Project->getError());
+            }
+
+            foreach($inside_users_PUdatas as $PUdata)
+            {
+                if (!$PUdata->delete()) {
+                    return $this->error('删除失败:' . $PUdata->getError());
+                }
             }
 
         // 获取到ThinkPHP的内置异常时，直接向上抛出，交给ThinkPHP处理
@@ -74,7 +82,7 @@ class ProjectController extends Controller
         } 
 
         // 进行跳转 
-        return $this->success('删除成功', $Request->header('referer')); 
+        return $this->success('删除成功', url('Project/index')); 
     }
 
     public function edit()
@@ -85,8 +93,12 @@ class ProjectController extends Controller
         if (is_null($Project)) {
             return $this->error('不存在ID为' . $id . '的记录');
         }
+        $User = $_SESSION['think']['user'];
+        $joined_projects = $User->getJoinedProjectIds();
 
         $this->assign('Project', $Project);
+        $this->assign('User', $User);
+        $this->assign('joined_projects', $joined_projects);
         return $this->fetch("edit_or_add");
     }
 
@@ -97,6 +109,13 @@ class ProjectController extends Controller
         $project_name = input('get.project_name');
 
         $pageSize = 5; // 每页显示5条数据
+        $page = input('get.page');
+        if (is_null($page))
+        {
+            $page = 1;
+        }
+        session('page', $page);
+
 
         // 实例化
         $Project = new Project; 
@@ -109,16 +128,52 @@ class ProjectController extends Controller
                 ],
             ]); 
 
+        $User = $_SESSION['think']['user'];
+        $joined_projects = $User->getJoinedProjectIds();
+
         // 向V层传数据
         $this->assign('Projects', $Projects);
         $this->assign('User', $User);
         $this->assign('add_keyword', $add_keyword);
+        $this->assign('joined_projects', $joined_projects);
 
         // 取回打包后的数据
         $htmls = $this->fetch();
 
         // 将数据返回给用户
         return $htmls;
+    }
+
+    public function invite()
+    {
+        $id = Request::instance()->param('id/d');
+        $Project = Project::get($id);
+
+        if (is_null($Project)) {
+            return $this->error('不存在ID为' . $id . '的记录');
+        }
+
+        $outside_users = $Project->getOutsideUsers();
+
+        $this->assign('Project', $Project);
+        $this->assign('outside_users', $outside_users);
+        return $this->fetch();
+    }
+
+    public function invite_save()
+    {
+        // 实例化
+        $project_id = input('post.id');
+        $invited_users = Request::instance()->post('invited_users/a');
+        $Project = Project::get($project_id);
+
+        // 利用invited_users这个数组，拼接为包括project_id和user_id的二维数组。
+        if (!is_null($invited_users)) {
+            if (!$Project->Users()->saveAll($invited_users)) {
+                return $this->error('信息保存错误：' . $Project->Users()->getError());
+            }
+        }
+        return $this->success('操作成功', url('index').'?page='.$_SESSION['think']['page']);
     }
 
     public function project_join()
@@ -137,8 +192,7 @@ class ProjectController extends Controller
         }
     
         // 成功跳转至index触发器
-        array_push($_SESSION['think']['joined_projects'], $project_id);
-        return $this->success('操作成功', url('index'));
+        return $this->success('操作成功', url('index').'?page='.$_SESSION['think']['page']);
     }
 
     public function save()
@@ -153,7 +207,7 @@ class ProjectController extends Controller
         }
     
         // 成功跳转至index触发器
-        return $this->success('操作成功', url('index'));
+        return $this->success('操作成功', url('index').'?page='.$_SESSION['think']['page']);
     }
 
     private function saveProject(Project &$Project) 
@@ -181,9 +235,9 @@ class ProjectController extends Controller
         } else {
             return $this->error('当前操作的记录不存在');
         }
-    
+
         // 成功跳转至index触发器
-        return $this->success('操作成功', url('index'));
+        return $this->success('操作成功', '/thinkphp5/public/index/Project/index?page='.$_SESSION['think']['page']);
     }
 
     

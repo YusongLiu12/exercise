@@ -2,10 +2,26 @@
 {block name="title"}
 项目管理
 {/block}
+{block name="add"}
+    <div class="offset-6 col-md-2 text-right"
+    <?php if($Project->getData('create_user') !== $User->getData('id')) echo "hidden"; ?>>
+        <a class="text-right btn btn-primary bi-journal-plus" href="{:url('add?project_id='.$Project->getData('id'))}">&nbsp{$add_keyword}</a>
+    </div>
+{/block}
 {block name="search"}
     <form class="form-inline">
-        <input class="form-control mr-sm-2" type="search" name="task_title" placeholder="任务标题..." value="{:input('get.task_title')}">
-        <button class="btn btn-primary bi-search" type="submit">查询</button>
+        <div class="form-group">
+            <label class="mr-sm-2" for="task_title">任务标题：</label>
+            <input class="form-control mr-sm-4" type="search" id="task_title" name="task_title" placeholder="任务标题..." value="{:input('get.task_title')}">
+            <label class="mr-sm-2" for="task_status">任务状态：</label>
+            <select class="form-control mr-sm-2" id="task_status" name="task_status" placeholder="任务标题...">
+                <option value="" {eq name=":input('get.task_status')" value="" }selected="selected"{/eq}>全部状态</option>
+                <option value="0" {eq name=":input('get.task_status')" value="0" }selected="selected"{/eq}>未开始</option>
+                <option value="1" {eq name=":input('get.task_status')" value="1" }selected="selected"{/eq}>进行中</option>
+                <option value="2" {eq name=":input('get.task_status')" value="2" }selected="selected"{/eq}>已结束</option>
+            </select>
+            <button class="btn btn-primary bi-search" type="submit">查询</button>
+        </div>
     </form>
 {/block}
 {block name="content"}
@@ -15,6 +31,8 @@
             <th>任务标题</th>
             <th>负责人</th>
             <th>状态</th>
+            <th>开始时间</th>
+            <th>结束时间</th>
             <th>操作</th>
         </tr>
         {volist name="Tasks" id="_task" key="key"}
@@ -22,9 +40,11 @@
             <td>{$key}</td>
             <td>{$_task->task_title}</td>
             <td><?php echo $User->getNameById($_task->leader_id); ?></td>
-            <td><?php echo $Task->getStatusString($_task->status); ?></td>
+            <td>{$_task->status}</td>
+            <td>{$_task->start_time}</td>
+            <td>{$_task->end_time}</td>
             <td>
-                <a class="btn btn-sm btn-info bi-pencil-square" href="{:url('edit?id=' . $_task->getData('id'))}">&nbsp编辑</a>
+                <a class="btn btn-sm btn-info bi-pencil-square" href="{:url('edit?task_id=' . $_task->getData('id').'?project_id='.$Project->getData('id'))}">&nbsp编辑</a>
             </td>
         </tr>
         {/volist}

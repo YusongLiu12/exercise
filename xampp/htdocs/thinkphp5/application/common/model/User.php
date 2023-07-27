@@ -22,10 +22,67 @@ class User extends Model
         }
     }
 
+    public function getAccessLevelAttr($value)
+    {
+        $status = array('0'=>'用户','1'=>'管理员', '2'=>'博士');
+        $access_level = $status[$value];
+        if (isset($access_level))
+        {
+            return $access_level;
+        } else {
+            return $status[0];
+        }
+    } 
+
     public function getNameById($id)
     {
         $User = self::get($id);
+        if ($User === null)
+        {
+            var_dump($id);
+            die();
+        }
         return $User->getData('name');
+    }
+
+    public function getJoinedProjects()
+    {
+        $user_id = $this->getData('id');
+        //当前项目已加入的用户
+        $ProjectUser_verify = new ProjectUser;
+        $joined_projects_array = array();
+        $joined_projects = $ProjectUser_verify->where('user_id', '=', $user_id)->select();
+
+        foreach ($joined_projects as $PUdata)
+        {
+            $project_id = $PUdata->getData('project_id');
+            $Project = Project::get($project_id);
+            if($Project === null) die();
+            $project_name = $Project->getData('project_name');
+            array_push($joined_projects_array, $project_name);
+        }
+
+        if(!$joined_projects_array)
+        {
+            array_push($joined_projects_array, "该用户未加入任何项目");
+        }
+
+        return $joined_projects_array;
+    }
+
+    public function getJoinedProjectIds()
+    {
+        $user_id = $this->getData('id');
+        //当前项目已加入的用户
+        $ProjectUser_verify = new ProjectUser;
+        $joined_projects_array = array();
+        $joined_projects = $ProjectUser_verify->where('user_id', '=', $user_id)->select();
+        foreach ($joined_projects as $PUdata)
+        {
+            $project_id = $PUdata->getData('project_id');
+            array_push($joined_projects_array, $project_id);
+        }
+        return $joined_projects_array;
     }
 
     /**

@@ -6,6 +6,6 @@ class Project extends Validate
 {
     protected $rule = [
         'project_name' => 'require|length:4,25',
-        'access_type'  => 'int:0,1',
+        'access_type'  => 'int',
     ];
 }

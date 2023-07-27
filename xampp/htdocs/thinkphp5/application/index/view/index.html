@@ -20,10 +20,7 @@
     <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/css/bootstrap-reboot.css">
     <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/js/bootstrap.bundle.js">
-    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js">
-    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/js/bootstrap.js">
-    <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/bootstrap-4.6.2-dist/js/bootstrap.min.js">
+
 
     <!--include icon css-->
     <link rel="stylesheet" type="text/css" href="/thinkphp5/public/static/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
@@ -49,7 +46,7 @@
                 <a class="nav-link" href="{:url('User/index')}">用户管理</a>
                 </li>
                 </ul>
-                
+
                 <div class="dropdown">
                     <button class="btn btn-primary dropdown-toggle bi-person-fill" type="button" data-toggle="dropdown" aria-expanded="false">
                     欢迎您，{$_SESSION['think']['user']->getData('name')}{eq name="$_SESSION['think']['user']->getData('access_level')"" value="0"}用户{else /}管理员{/eq}
@@ -70,9 +67,11 @@
         <div class="col-md-4">
             {block name="search"} {/block}
         </div>
+        {block name="add"}
         <div class="offset-6 col-md-2 text-right">
             <a class="text-right btn btn-primary bi-journal-plus" href="{:url('add')}">&nbsp{$add_keyword}</a>
         </div>
+        {/block}
     </div>
     <hr />
     <div class="row">

@@ -1041,3 +1041,36 @@
 0:46:05  [main] 	Deinitializing Modules
 0:46:05  [main] 	Deinitializing Control Panel
 
+10:41:58  [main] 	Initializing Control Panel
+10:41:58  [main] 	Windows Version:  Enterprise  64-bit
+10:41:58  [main] 	XAMPP Version: 5.6.21
+10:41:58  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+10:41:58  [main] 	You are not running with administrator rights! This will work for
+10:41:58  [main] 	most application stuff but whenever you do something with services
+10:41:58  [main] 	there will be a security dialogue or things will break! So think 
+10:41:58  [main] 	about running this application with administrator rights!
+10:41:58  [main] 	XAMPP Installation Directory: "d:\xampp\"
+10:41:58  [main] 	Checking for prerequisites
+10:41:59  [main] 	All prerequisites found
+10:41:59  [main] 	Initializing Modules
+10:41:59  [Apache] 	Problem detected!
+10:41:59  [Apache] 	Port 80 in use by "Unable to open process" with PID 4!
+10:41:59  [Apache] 	Apache WILL NOT start without the configured ports free!
+10:41:59  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+10:41:59  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+10:41:59  [main] 	The FileZilla module is disabled
+10:41:59  [main] 	The Mercury module is disabled
+10:41:59  [main] 	Starting Check-Timer
+10:41:59  [main] 	Control Panel Ready
+10:44:36  [Apache] 	Problem detected!
+10:44:36  [Apache] 	Port 80 in use by "Unable to open process" with PID 4!
+10:44:36  [Apache] 	Apache WILL NOT start without the configured ports free!
+10:44:36  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+10:44:36  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+10:44:36  [Apache] 	Attempting to start Apache app...
+10:44:36  [Apache] 	Status change detected: running
+10:44:37  [mysql] 	Attempting to start MySQL app...
+10:44:37  [mysql] 	Status change detected: running
+22:14:44  [main] 	Deinitializing Modules
+22:14:44  [main] 	Deinitializing Control Panel
+

@@ -3,22 +3,24 @@
 {eq name="Project->id" value=""}新增项目{else /}编辑项目{/eq}
 {/block}
 {block name="content"}
-{php}$action = request()->action() === 'add' ? 'save' : 'update';{/php}
+{php}$action = (request()->action() === 'add' ? 'save' : 'update');{/php}
 <form action="{:url($action)}" method="POST"> 
     <input type="hidden" name="id" value="{$Project->id}" />
     <div class="form-group">
         <label for="project_name">项目名称</label>
-        <input type="text" class="form-control" id="username" aria-describedby="请输入项目名称" name="project_name">
+        <input type="text" class="form-control" id="username" placeholder="请输入项目名称" name="project_name" value="{$Project->getData('project_name')}">
     </div>
     <div class="form-group">
         <label>访问类型:</label>
         <select class="" name="access_type">
             <option value="0">公开</option>
-            <option value="1" {eq name="Project->access_type" value="1" }selected="selected"{/eq}>私有</option>
+            <option value="1" {eq name="Project->access_type" value="私有" }selected="selected"{/eq}>私有</option>
         </select>
-        <div <?php if(($Project->create_user === $_SESSION['think']['user']->id) || (in_array($Project->id, $_SESSION['think']['joined_projects']))) echo "hidden"; ?> class="alert alert-danger" role="alert">
-            该项目创建者不是您，且您不在项目内，将项目类型修改为私有后您将无法看见该项目
+        <?php if(($action === 'update') && ($User->getData('id') !== $Project->getData('create_user')) && ($Project->access_type === '公开') && !in_array($Project->getData('id'), $joined_projects)): ?>
+        <div class="alert alert-danger" role="alert">
+            该项目创建者不是您，且您不在项目内，将项目类型修改为私有后您将无法主动加入该项目
         </div>
+        <?php endif; ?>
 
     </div>
 

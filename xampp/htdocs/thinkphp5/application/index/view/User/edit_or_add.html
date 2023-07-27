@@ -5,16 +5,28 @@
 {block name="content"}
 {php}$action = request()->action() === 'add' ? 'save' : 'update';{/php}
 <form action="{:url($action)}" method="POST">
+    <input type="hidden" name="id" value="{$User->id}" />
     <div class="form-group">
-        <label for="project_name">用户名</label>
-        <input type="text" class="form-control" id="username" aria-describedby="请输入项目名称" name="username">
+        <label for="username">用户名</label>
+        <input type="text" class="form-control" id="username" placeholder="请输入用户名" name="username" value="{$User->getData('username')}">
     </div>
-    <label>访问类型:</label>
-    <select name="access_type">
-        <option value="0">公开</option>
-        <option value="1" {eq name="Project->access_type" value="1" }selected="selected" {/eq}>私有</option>
-    </select>
-
+    <div class="form-group">
+        <label for="user_name">姓名</label>
+        <input type="text" class="form-control" id="user_name" placeholder="请输入姓名" name="user_name" value="{$User->getData('name')}">
+    </div>
+    <div class="form-group">
+        <label for="password">密码</label>
+        <input type="password" class="form-control" id="password" placeholder="请输入密码" name="password" value="{$User->getData('password')}">
+    </div>
+    <?php if($_SESSION['think']['user']->access_level === '管理员'):?>
+    <div class="form-group">
+        <label>访问权限:</label>
+        <select name="access_level">
+            <option value="0" {eq name="$User->access_level" value="普通用户"}selected='selected'{/eq}>普通用户</option>
+            <option value="1" {eq name="$User->access_level" value="管理员"}selected='selected'{/eq}>管理员</option>
+        </select>
+    </div>
+    <?php endif; ?>
     <button type="submit" class="btn btn-primary">保存</button>
 </form>
 {/block}
