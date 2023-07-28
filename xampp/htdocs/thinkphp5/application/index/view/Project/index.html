@@ -19,6 +19,8 @@
         </tr>
         <?php $_SESSION['key'] = 1; ?>
         {volist name="Projects" id="_project" key="key"}
+        <!--如果当前登录用户在该项目内或者该项目为公开，则显示该项目-->
+        <?php if(in_array($_project->getData('id'), $joined_projects) || ($_project->access_type === '公开')): ?>
         <tr>
             <td>{$_SESSION['key']++}</td>
             <td>{$_project->getData('project_name')}</td>
@@ -42,17 +44,26 @@
                 <?php else: ?>
                 <a disabled class="btn btn-sm btn-secondary bi-person-exclamation">&nbsp不可加入</a>
                 <?php endif; ?>
-                <!--如果当前登录用户为管理员或者该项目创建者)，则显示编辑和删除操作-->
+                <!--如果当前登录用户为管理员或者该项目创建者，则显示编辑和删除操作-->
                 <?php if(($User->access_level === '管理员') || ($User->getData('id') === $_project->getData('create_user'))): ?>
                 <a class="btn btn-sm btn-info bi-pencil-square" href="{:url('edit?id=' . $_project->getData('id'))}">&nbsp编辑</a>
                 <a class="btn btn-sm btn-danger bi-trash" href="{:url('delete?id=' . $_project->getData('id'))}">&nbsp删除</a>
                 <?php endif; ?>
-                <?php if($_project->getData('create_user') === $User->getData('id')): ?>
+                <!--如果当前登录用户为该项目创建者且该项目为私有，则显示编辑和删除操作-->
+                <?php if(($_project->getData('create_user') === $User->getData('id')) && ($_project->access_type === '私有')): ?>
                 <a class="btn btn-sm btn-success bi-pencil-square" href="{:url('invite?id=' . $_project->getData('id'))}">&nbsp邀请</a>
                 <?php endif; ?>
-                
             </td>
         </tr>
+        <?php else: ?>
+        <tr>
+            <td class="alert alert-danger" role="alert">该项目为私有</td>
+            <td class="alert alert-danger" role="alert">该项目为私有</td>
+            <td class="alert alert-danger" role="alert">该项目为私有</td>
+            <td class="alert alert-danger" role="alert">该项目为私有</td>
+            <td class="alert alert-danger" role="alert">该项目为私有</td>
+        </tr>
+        <?php endif; ?>
         {/volist}
     </table>
 {/block}

@@ -3,8 +3,11 @@ namespace app\index\controller; // 该文件的位于application\index\controlle
 use think\Controller;   // 用于与V层进行数据传递
 use app\common\model\Project;       // 项目模型
 use app\common\model\User;
+use app\common\model\Task;
 use app\common\model\ProjectUser;
 use think\Request;
+use think\Loader;
+
 /**
  * 项目管理
  */
@@ -52,7 +55,11 @@ class UserController extends IndexController
             // 获取要删除的对象
             $User = User::get($id);
             $ProjectUser = new ProjectUser;
-            $joined_projects_PUdatas = $ProjectUser->where('user_id', '=', $id)->select();
+            $Project = new Project;
+            $Task = new Task;
+            $joined_project_PUdatas = $ProjectUser->where('user_id', '=', $id)->select();
+            $create_projects = $Project->where('create_user', '=', $id)->select();
+            $lead_tasks = $Task->where('leader_id', '=', $id)->select();
 
             // 要删除的对象存在
             if (is_null($User)) {
@@ -64,10 +71,27 @@ class UserController extends IndexController
                 return $this->error('删除失败:' . $User->getError());
             }
 
-            foreach($joined_projects_PUdatas as $PUdata)
+            // 删除用户与其参与项目的关联数据
+            foreach($joined_project_PUdatas as $PUdata)
             {
                 if (!$PUdata->delete()) {
                     return $this->error('删除失败:' . $PUdata->getError());
+                }
+            }
+
+            // 删除用户创建的项目
+            foreach($create_projects as $create_project)
+            {
+                if (!$create_project->delete()) {
+                    return $this->error('删除失败:' . $create_project->getError());
+                }
+            }
+
+            // 删除用户负责的任务
+            foreach($lead_tasks as $lead_task)
+            {
+                if (!$lead_task->delete()) {
+                    return $this->error('删除失败:' . $lead_task->getError());
                 }
             }
 
@@ -115,7 +139,7 @@ class UserController extends IndexController
         $User = new User; 
 
         // 按条件查询数据并调用分页
-        $Users = $User->where('username', 'like', '%' . $username . '%')->paginate($pageSize, false, [
+        $Users = $User->where('username', 'like', '%' . $username . '%')->order('id asc')->paginate($pageSize, false, [
             'query'=>[
                 'username' => $username,
                 ],
@@ -154,6 +178,21 @@ class UserController extends IndexController
         $User->name = input('post.user_name');
         $User->password = input('post.password');
         $User->access_level = input('post.access_level');
+
+        //验证输入数据
+        $data = [
+            'username' => $User->username,
+            'name'  => $User->name,
+            'access_level'  => $User->access_level,
+            'password'  => $User->password,
+        ];
+
+        $validate = Loader::validate('User');
+
+        if(!$validate->check($data))
+        {
+            return $this->error('操作失败 ' . $validate->getError(), url('User/index').'?page='.$_SESSION['think']['page']);
+        }
 
         // 更新或保存
         return $User->validate(true)->save();

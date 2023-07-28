@@ -10,14 +10,14 @@
     <div class="form-group">
         <label for="task_title">任务标题</label>
         <input <?php if($Project->getData('create_user') !== $User->getData('id')) echo"disabled"; ?>
-         type="text" class="form-control" id="username" placeholder="请输入任务标题" name="task_title" value="{$Task->task_title}">
+         type="text" class="form-control" id="task_title" placeholder="请输入任务标题" name="task_title" value="{$Task->task_title}">
     </div>
     <div class="form-group">
         <label>任务状态:</label>
         <select class="" name="task_status">
             <option value="0">未开始</option>
-            <option value="1" {eq name="$Task->status" value="1" }selected="selected"{/eq}>进行中</option>
-            <option value="2" {eq name="$Task->status" value="2" }selected="selected"{/eq}>已结束</option>
+            <option value="1" {eq name="$Task->status" value="进行中" }selected="selected"{/eq}>进行中</option>
+            <option value="2" {eq name="$Task->status" value="已结束" }selected="selected"{/eq}>已结束</option>
         </select>
     </div>
 

@@ -1,0 +1,19 @@
+{extend name="edit_or_add"}
+{block name="title"}
+添加事件
+{/block}
+{block name="content"}
+<form action="{:url('eventSave')}" method="POST"> 
+    <input type="hidden" name="task_id" value="{$Task->id}" />
+    <input type="hidden" name="project_id" value="{$Project->id}" />
+    <div class="form-group">
+        <label for="task_title">任务标题</label>
+        <input disable type="text" class="form-control" id="task_title" name="task_title" value="{$Task->task_title}">
+    </div>
+    <div class="form-group">
+        <label for="event">添加事件</label>
+        <input type="text" class="form-control" id="event" placeholder="请输入事件" name="task_event">
+    </div>
+    <button type="submit" class="btn btn-primary">保存</button>
+</form>
+{/block}

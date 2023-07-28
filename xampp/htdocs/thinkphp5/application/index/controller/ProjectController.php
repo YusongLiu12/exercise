@@ -6,6 +6,7 @@ use app\common\model\User;
 use app\common\model\Task;
 use app\common\model\ProjectUser;
 use think\Request;
+use think\Loader;
 /**
  * 项目管理
  */
@@ -53,22 +54,33 @@ class ProjectController extends IndexController
             // 获取要删除的对象
             $Project = Project::get($id);
             $ProjectUser = new ProjectUser;
+            $Task = new Task;
             $inside_users_PUdatas = $ProjectUser->where('project_id', '=', $id)->select();
+            $inside_tasks = $Task->where('project_id', '=', $id)->select();
 
             // 要删除的对象存在
             if (is_null($Project)) {
                 throw new \Exception('不存在id为' . $id . '的项目，删除失败', 1);
             }
 
-            // 删除对象
+            // 删除项目
             if (!$Project->delete()) {
                 return $this->error('删除失败:' . $Project->getError());
             }
 
+            // 删除项目与其参与成员的关联数据
             foreach($inside_users_PUdatas as $PUdata)
             {
                 if (!$PUdata->delete()) {
                     return $this->error('删除失败:' . $PUdata->getError());
+                }
+            }
+
+            // 删除项目内的任务
+            foreach($inside_tasks as $inside_task)
+            {
+                if (!$inside_task->delete()) {
+                    return $this->error('删除失败:' . $inside_task->getError());
                 }
             }
 
@@ -82,7 +94,7 @@ class ProjectController extends IndexController
         } 
 
         // 进行跳转 
-        return $this->success('删除成功', url('Project/index')); 
+        return $this->success('删除成功', url('index').'?page='.$_SESSION['think']['page']); 
     }
 
     public function edit()
@@ -122,7 +134,7 @@ class ProjectController extends IndexController
         $User = new User;
 
         // 按条件查询数据并调用分页
-        $Projects = $Project->where('project_name', 'like', '%' . $project_name . '%')->paginate($pageSize, false, [
+        $Projects = $Project->where('project_name', 'like', '%' . $project_name . '%')->order('id asc')->paginate($pageSize, false, [
             'query'=>[
                 'project_name' => $project_name,
                 ],
@@ -188,7 +200,24 @@ class ProjectController extends IndexController
 
         // 加入用户
         if (!($ProjectUser->validate(true)->save())) {
-            return $this->error('操作失败' . $Project->getError());
+            return $this->error('操作失败' . $Project->getError(), url('index').'?page='.$_SESSION['think']['page']);
+        }
+    
+        // 成功跳转至index触发器
+        return $this->success('操作成功', url('index').'?page='.$_SESSION['think']['page']);
+    }
+
+    public function project_join_para($project_id, $user_id)
+    {
+        // 实例化
+        $ProjectUser = new ProjectUser;
+
+        $ProjectUser->project_id = $project_id;
+        $ProjectUser->user_id = $user_id;
+
+        // 加入用户
+        if (!($ProjectUser->validate(true)->save())) {
+            return $this->error('操作失败' . $Project->getError(), url('index').'?page='.$_SESSION['think']['page']);
         }
     
         // 成功跳转至index触发器
@@ -199,15 +228,17 @@ class ProjectController extends IndexController
     {
         // 实例化
         $Project = new Project;
-        $Project->create_user = $_SESSION['think']['user']->getData('id');
+        $now_user = $_SESSION['think']['user']->getData('id');
+        $Project->create_user = $now_user;
 
-        // 新增数据
-        if (!$this->saveProject($Project)) {
-            return $this->error('操作失败' . $Project->getError());
+        // 新增数据,获取新增项目的id
+        $add_project_id = $this->saveProject($Project);
+        if (!$add_project_id) {
+            return $this->error('操作失败' . $Project->getError(), url('index').'?page='.$_SESSION['think']['page']);
         }
     
-        // 成功跳转至index触发器
-        return $this->success('操作成功', url('index').'?page='.$_SESSION['think']['page']);
+        //将创建者当前用户加入项目中
+        $this->project_join_para($add_project_id, $now_user);
     }
 
     private function saveProject(Project &$Project) 
@@ -216,8 +247,24 @@ class ProjectController extends IndexController
         $Project->project_name = input('post.project_name');
         $Project->access_type = input('post.access_type');
 
+        //验证输入数据
+        $data = [
+            'project_name' => $Project->project_name,
+            'access_type'  => $Project->access_type,
+            'create_user'  => $Project->create_user,
+        ];
+
+        $validate = Loader::validate('Project');
+
+        if(!$validate->check($data))
+        {
+            return $this->error('操作失败 ' . $validate->getError(), url('index').'?page='.$_SESSION['think']['page']);
+        }
+
         // 更新或保存
-        return $Project->validate(true)->save();
+        $Project->validate(true)->save();
+
+        return $Project->getData('id');
     }
 
     public function update()
@@ -230,14 +277,14 @@ class ProjectController extends IndexController
 
         if (!is_null($Project)) {
             if (!$this->saveProject($Project, true)) {
-                return $this->error('操作失败' . $Project->getError());
+                return $this->error('操作失败' . $Project->getError(), url('index').'?page='.$_SESSION['think']['page']);
             }
         } else {
             return $this->error('当前操作的记录不存在');
         }
 
         // 成功跳转至index触发器
-        return $this->success('操作成功', '/thinkphp5/public/index/Project/index?page='.$_SESSION['think']['page']);
+        return $this->success('操作成功', url('index').'?page='.$_SESSION['think']['page']);
     }
 
     

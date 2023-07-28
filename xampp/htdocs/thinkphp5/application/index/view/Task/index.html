@@ -33,7 +33,7 @@
             <th>状态</th>
             <th>开始时间</th>
             <th>结束时间</th>
-            <th>操作</th>
+            <th width='430' class='table_width'>操作</th>
         </tr>
         {volist name="Tasks" id="_task" key="key"}
         <tr>
@@ -45,6 +45,27 @@
             <td>{$_task->end_time}</td>
             <td>
                 <a class="btn btn-sm btn-info bi-pencil-square" href="{:url('edit?task_id=' . $_task->getData('id').'?project_id='.$Project->getData('id'))}">&nbsp编辑</a>
+                <a class="btn btn-sm btn-primary bi-pencil-square" href="{:url('event?task_id=' . $_task->getData('id').'?project_id='.$Project->getData('id'))}">&nbsp添加事件</a>
+                <div style="width: 110px;" class="btn btn-sm dropdown">
+                    <button class="btn btn-info btn-sm dropdown-toggle bi-list-task" type="button" data-toggle="dropdown" aria-expanded="false">
+                    状态记录
+                    </button>
+                    <div class="dropdown-menu">
+                        <?php foreach($_task->getRecords() as $_record): ?>
+                        <small class="dropdown-item">{$_record}</small>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+                <div style="width: 110px;" class="btn btn-sm dropdown">
+                    <button class="btn btn-info btn-sm dropdown-toggle bi-list-task" type="button" data-toggle="dropdown" aria-expanded="false">
+                    事件记录
+                    </button>
+                    <div class="dropdown-menu">
+                        <?php foreach($_task->getEvents() as $_event): ?>
+                        <small class="dropdown-item">{$_event}</small>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
             </td>
         </tr>
         {/volist}

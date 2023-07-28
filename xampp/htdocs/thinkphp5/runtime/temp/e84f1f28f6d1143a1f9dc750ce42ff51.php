@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:83:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\edit_or_add.html";i:1690463036;s:75:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\edit_or_add.html";i:1690354822;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:83:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\edit_or_add.html";i:1690532244;s:75:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\edit_or_add.html";i:1690354822;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 
@@ -49,7 +49,7 @@
         </select>
         <?php if(($action === 'update') && ($User->getData('id') !== $Project->getData('create_user')) && ($Project->access_type === '公开') && !in_array($Project->getData('id'), $joined_projects)): ?>
         <div class="alert alert-danger" role="alert">
-            该项目创建者不是您，且您不在项目内，将项目类型修改为私有后您将无法主动加入该项目
+            该项目创建者不是您，且您不在项目内，将项目类型修改为私有后您将无法看见该项目
         </div>
         <?php endif; ?>
 

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:77:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html";i:1690480456;s:69:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\index.html";i:1690444245;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:77:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html";i:1690532739;s:69:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\index.html";i:1690444245;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
@@ -94,6 +94,8 @@
             <th>操作</th>
         </tr>
         <?php $_SESSION['key'] = 1; if(is_array($Projects) || $Projects instanceof \think\Collection): $key = 0; $__LIST__ = $Projects;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$_project): $mod = ($key % 2 );++$key;?>
+        <!--如果当前登录用户在该项目内或者该项目为公开，则显示该项目-->
+        <?php if(in_array($_project->getData('id'), $joined_projects) || ($_project->access_type === '公开')): ?>
         <tr>
             <td><?php echo $_SESSION['key']++; ?></td>
             <td><?php echo $_project->getData('project_name'); ?></td>
@@ -117,17 +119,26 @@
                 <?php else: ?>
                 <a disabled class="btn btn-sm btn-secondary bi-person-exclamation">&nbsp不可加入</a>
                 <?php endif; ?>
-                <!--如果当前登录用户为管理员或者该项目创建者)，则显示编辑和删除操作-->
+                <!--如果当前登录用户为管理员或者该项目创建者，则显示编辑和删除操作-->
                 <?php if(($User->access_level === '管理员') || ($User->getData('id') === $_project->getData('create_user'))): ?>
                 <a class="btn btn-sm btn-info bi-pencil-square" href="<?php echo url('edit?id=' . $_project->getData('id')); ?>">&nbsp编辑</a>
                 <a class="btn btn-sm btn-danger bi-trash" href="<?php echo url('delete?id=' . $_project->getData('id')); ?>">&nbsp删除</a>
-                <?php endif; if($_project->getData('create_user') === $User->getData('id')): ?>
+                <?php endif; ?>
+                <!--如果当前登录用户为该项目创建者且该项目为私有，则显示编辑和删除操作-->
+                <?php if(($_project->getData('create_user') === $User->getData('id')) && ($_project->access_type === '私有')): ?>
                 <a class="btn btn-sm btn-success bi-pencil-square" href="<?php echo url('invite?id=' . $_project->getData('id')); ?>">&nbsp邀请</a>
                 <?php endif; ?>
-                
             </td>
         </tr>
-        <?php endforeach; endif; else: echo "" ;endif; ?>
+        <?php else: ?>
+        <tr>
+            <td class="alert alert-danger" role="alert">该项目为私有</td>
+            <td class="alert alert-danger" role="alert">该项目为私有</td>
+            <td class="alert alert-danger" role="alert">该项目为私有</td>
+            <td class="alert alert-danger" role="alert">该项目为私有</td>
+            <td class="alert alert-danger" role="alert">该项目为私有</td>
+        </tr>
+        <?php endif; endforeach; endif; else: echo "" ;endif; ?>
     </table>
 
             
