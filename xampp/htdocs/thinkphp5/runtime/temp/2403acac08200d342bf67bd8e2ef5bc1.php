@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:77:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html";i:1690532739;s:69:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\index.html";i:1690444245;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:77:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html";i:1690591021;s:69:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\index.html";i:1690444245;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
@@ -132,11 +132,11 @@
         </tr>
         <?php else: ?>
         <tr>
-            <td class="alert alert-danger" role="alert">该项目为私有</td>
-            <td class="alert alert-danger" role="alert">该项目为私有</td>
-            <td class="alert alert-danger" role="alert">该项目为私有</td>
-            <td class="alert alert-danger" role="alert">该项目为私有</td>
-            <td class="alert alert-danger" role="alert">该项目为私有</td>
+            <td class="alert alert-danger" role="alert"></td>
+            <td class="alert alert-danger" role="alert"></td>
+            <td class="alert alert-danger" role="alert"></td>
+            <td class="alert alert-danger" role="alert"></td>
+            <td class="alert alert-danger" role="alert"><small>该项目为私有，请等待创建者邀请您加入</small></td>
         </tr>
         <?php endif; endforeach; endif; else: echo "" ;endif; ?>
     </table>

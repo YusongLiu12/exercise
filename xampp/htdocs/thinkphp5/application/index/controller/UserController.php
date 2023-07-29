@@ -121,6 +121,19 @@ class UserController extends IndexController
         return $this->fetch("edit_or_add");
     }
 
+    public function editPassword()
+    {
+        $id = Request::instance()->param('id/d');
+        $User = User::get($id);
+
+        if (is_null($User)) {
+            return $this->error('不存在ID为' . $id . '的用户记录');
+        }
+
+        $this->assign('User', $User);
+        return $this->fetch();
+    }
+
     public function index()
     {
         $add_keyword = "新增用户";
@@ -190,9 +203,10 @@ class UserController extends IndexController
         $validate = Loader::validate('User');
 
         if(!$validate->check($data))
-        {
+        { 
             return $this->error('操作失败 ' . $validate->getError(), url('User/index').'?page='.$_SESSION['think']['page']);
         }
+
 
         // 更新或保存
         return $User->validate(true)->save();
@@ -207,15 +221,37 @@ class UserController extends IndexController
         $User = User::get($id);
 
         if (!is_null($User)) {
-            if (!$this->saveUser($User, true)) {
+            if (($this->saveUser($User)) === false) {
                 return $this->error('操作失败' . $User->getError());
             }
         } else {
             return $this->error('当前操作的记录不存在');
         }
-    
+
+
         // 成功跳转至index触发器
-        return $this->success('操作成功', url('User/index').'?page='.$_SESSION['think']['page']);
+        return $this->success('更新成功', url('User/index').'?page='.$_SESSION['think']['page']);
+    }
+
+    public function updatePassword()
+    {
+        // 接收数据，取要更新的关键字信息
+        $id = input('post.id');
+
+        // 获取当前对象
+        $User = User::get($id);
+
+        if (!is_null($User)) {
+            if (($this->saveUser($User)) === false) {
+                return $this->error('操作失败' . $User->getError());
+            }
+        } else {
+            return $this->error('当前操作的记录不存在');
+        }
+
+
+        // 成功跳转至index触发器
+        return $this->success('密码更新成功', url('User/index').'?page='.$_SESSION['think']['page']);
     }
 
 

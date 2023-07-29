@@ -18,19 +18,25 @@
     <table class="table table-hover table-bordered">
         <tr class="info">
             <th>序号</th>
-            <th>用户名</th>
             <th>姓名</th>
             <th>访问权限</th>
-            <th {eq name="$_SESSION['think']['user']->getData('access_level')" value="0"}hidden{/eq}>密码</th>
+            <th>用户名</th>
+            <th>密码</th>
             <th>操作</th>
         </tr>
         {volist name="Users" id="_user" key="key"}
         <tr>
             <td>{$key}</td>
-            <td>{$_user->getData('username')}</td>
+            
             <td>{$_user->getData('name')}</td>
             <td>{$_user->access_level}</td>
-            <td {eq name="$_SESSION['think']['user']->getData('access_level')" value="0"}hidden{/eq}>{$_user->getData('password')}</td>
+            <?php if($User->getData('id') === $_user->getData('id')): ?>
+            <td>{$_user->getData('username')}</td>
+            <td>{$_user->getData('password')}</td>
+            <?php else: ?>
+            <td class="alert alert-danger" role="alert"><small>你不能查看其他用户的用户名</small></td>
+            <td class="alert alert-danger" role="alert"><small>你不能查看其他用户的密码</small></td>
+            <?php endif; ?>
             <td>
                 <div class="btn btn-sm dropdown">
                     <button class="btn btn-info btn-sm dropdown-toggle bi-eye" type="button" data-toggle="dropdown" aria-expanded="false">
@@ -42,9 +48,10 @@
                         <?php endforeach; ?>
                     </div>
                 </div>
+                <a class="btn btn-sm btn-primary bi-pencil-square" href="{:url('editPassword?id=' . $_user->getData('id'))}">&nbsp修改密码</a>
                 <!--如果当前登录用户是管理员，则显示编辑和删除操作-->
                 <?php if(($User->access_level === '管理员') || ($User->getData('id') === $_user->getData('id'))): ?>
-                <a class="btn btn-sm btn-primary bi-pencil-square" href="{:url('edit?id=' . $_user->getData('id'))}">&nbsp编辑</a>
+                <a class="btn btn-sm btn-info bi-pencil-square" href="{:url('edit?id=' . $_user->getData('id'))}">&nbsp编辑</a>
                 <a class="btn btn-sm btn-danger bi-trash" href="{:url('delete?id=' . $_user->getData('id'))}">&nbsp删除</a>
                 <?php endif; ?>
             </td>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:74:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\user\index.html";i:1690477321;s:69:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\index.html";i:1690444245;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:74:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\user\index.html";i:1690592190;s:69:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\index.html";i:1690444245;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
@@ -89,19 +89,25 @@
     <table class="table table-hover table-bordered">
         <tr class="info">
             <th>序号</th>
-            <th>用户名</th>
             <th>姓名</th>
             <th>访问权限</th>
-            <th <?php if($_SESSION['think']['user']->getData('access_level') == '0'): ?>hidden<?php endif; ?>>密码</th>
+            <th>用户名</th>
+            <th>密码</th>
             <th>操作</th>
         </tr>
         <?php if(is_array($Users) || $Users instanceof \think\Collection): $key = 0; $__LIST__ = $Users;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$_user): $mod = ($key % 2 );++$key;?>
         <tr>
             <td><?php echo $key; ?></td>
-            <td><?php echo $_user->getData('username'); ?></td>
+            
             <td><?php echo $_user->getData('name'); ?></td>
             <td><?php echo $_user->access_level; ?></td>
-            <td <?php if($_SESSION['think']['user']->getData('access_level') == '0'): ?>hidden<?php endif; ?>><?php echo $_user->getData('password'); ?></td>
+            <?php if($User->getData('id') === $_user->getData('id')): ?>
+            <td><?php echo $_user->getData('username'); ?></td>
+            <td><?php echo $_user->getData('password'); ?></td>
+            <?php else: ?>
+            <td class="alert alert-danger" role="alert"><small>你不能查看其他用户的用户名</small></td>
+            <td class="alert alert-danger" role="alert"><small>你不能查看其他用户的密码</small></td>
+            <?php endif; ?>
             <td>
                 <div class="btn btn-sm dropdown">
                     <button class="btn btn-info btn-sm dropdown-toggle bi-eye" type="button" data-toggle="dropdown" aria-expanded="false">
@@ -113,9 +119,10 @@
                         <?php endforeach; ?>
                     </div>
                 </div>
+                <a class="btn btn-sm btn-primary bi-pencil-square" href="<?php echo url('editPassword?id=' . $_user->getData('id')); ?>">&nbsp修改密码</a>
                 <!--如果当前登录用户是管理员，则显示编辑和删除操作-->
                 <?php if(($User->access_level === '管理员') || ($User->getData('id') === $_user->getData('id'))): ?>
-                <a class="btn btn-sm btn-primary bi-pencil-square" href="<?php echo url('edit?id=' . $_user->getData('id')); ?>">&nbsp编辑</a>
+                <a class="btn btn-sm btn-info bi-pencil-square" href="<?php echo url('edit?id=' . $_user->getData('id')); ?>">&nbsp编辑</a>
                 <a class="btn btn-sm btn-danger bi-trash" href="<?php echo url('delete?id=' . $_user->getData('id')); ?>">&nbsp删除</a>
                 <?php endif; ?>
             </td>

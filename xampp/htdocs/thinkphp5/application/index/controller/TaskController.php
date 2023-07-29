@@ -184,9 +184,14 @@ class TaskController extends IndexController
         $Task->start_time = input('post.start_time');
         $Task->end_time = input('post.end_time');
 
+        //判断开始时间是否大于结束时间
+        $st = strtotime($Task->getData('start_time'));
+        $ed = strtotime($Task->getData('end_time'));
+
         //验证输入数据
         $data = [
             'task_title' => $Task->task_title,
+            'time_validate' => ($st < $ed),
         ];
 
         $validate = Loader::validate('Task');
@@ -268,7 +273,7 @@ class TaskController extends IndexController
 
         //更新任务数据
         if (!is_null($Task)) {
-            if (!$this->saveTask($Task, $Project)) {
+            if (($this->saveTask($Task, $Project)) === false) {
                 return $this->error('操作失败' . $Task->getError());
             }
         } else {
@@ -285,6 +290,7 @@ class TaskController extends IndexController
             $status_edit_record .= $now_user."在".$now_time."将任务状态由“".$pre_status."”修改为“".$aft_status."”";
         }
 
+
         //储存修改记录
         if ($status_edit_record !== '')
         {
@@ -292,6 +298,6 @@ class TaskController extends IndexController
         }
 
         // 成功跳转至index触发器
-        return $this->success('操作成功', url('Task/index?id=' . $Project->getData('id')).'?page='.$_SESSION['think']['page']);
+        return $this->success('更新成功', url('Task/index?id=' . $Project->getData('id')).'?page='.$_SESSION['think']['page']);
     }
 }

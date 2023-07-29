@@ -198,6 +198,19 @@ class ProjectController extends IndexController
         $ProjectUser->project_id = $project_id;
         $ProjectUser->user_id = $user_id;
 
+        //验证输入数据
+        $data = [
+            'project_id' => $project_id,
+            'user_id' => $user_id,
+        ];
+
+        $validate = Loader::validate('ProjectUser');
+
+        if(!$validate->check($data))
+        {
+            return $this->error('操作失败 ' . $validate->getError(), url('index').'?page='.$_SESSION['think']['page']);
+        }
+
         // 加入用户
         if (!($ProjectUser->validate(true)->save())) {
             return $this->error('操作失败' . $Project->getError(), url('index').'?page='.$_SESSION['think']['page']);
@@ -214,6 +227,19 @@ class ProjectController extends IndexController
 
         $ProjectUser->project_id = $project_id;
         $ProjectUser->user_id = $user_id;
+
+        //验证输入数据
+        $data = [
+            'project_id' => $project_id,
+            'user_id' => $user_id,
+        ];
+
+        $validate = Loader::validate('ProjectUser');
+
+        if(!$validate->check($data))
+        {
+            return $this->error('操作失败 ' . $validate->getError(), url('index').'?page='.$_SESSION['think']['page']);
+        }
 
         // 加入用户
         if (!($ProjectUser->validate(true)->save())) {
@@ -250,8 +276,6 @@ class ProjectController extends IndexController
         //验证输入数据
         $data = [
             'project_name' => $Project->project_name,
-            'access_type'  => $Project->access_type,
-            'create_user'  => $Project->create_user,
         ];
 
         $validate = Loader::validate('Project');
@@ -276,7 +300,7 @@ class ProjectController extends IndexController
         $Project = Project::get($id);
 
         if (!is_null($Project)) {
-            if (!$this->saveProject($Project, true)) {
+            if (($this->saveProject($Project, true)) === false) {
                 return $this->error('操作失败' . $Project->getError(), url('index').'?page='.$_SESSION['think']['page']);
             }
         } else {
@@ -284,7 +308,7 @@ class ProjectController extends IndexController
         }
 
         // 成功跳转至index触发器
-        return $this->success('操作成功', url('index').'?page='.$_SESSION['think']['page']);
+        return $this->success('更新成功', url('index').'?page='.$_SESSION['think']['page']);
     }
 
     
