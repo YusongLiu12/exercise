@@ -6197,3 +6197,13 @@ sl:warn] [pid 5756:tid 636] AH01909: www.example.com:443:0 server certificate do
 [Sat Jul 29 09:48:04.617934 2023] [:error] [pid 4716:tid 1964] [client 127.0.0.1:62328] PHP   7. spl_autoload_call() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:408, referer: http://localhost:444/thinkphp5/public/index/task/index/id/3.html?page=1
 [Sat Jul 29 09:48:04.617934 2023] [:error] [pid 4716:tid 1964] [client 127.0.0.1:62328] PHP   8. think\\Loader::autoload() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:0, referer: http://localhost:444/thinkphp5/public/index/task/index/id/3.html?page=1
 [Sat Jul 29 09:48:04.617934 2023] [:error] [pid 4716:tid 1964] [client 127.0.0.1:62328] PHP   9. think\\__include_file() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:58, referer: http://localhost:444/thinkphp5/public/index/task/index/id/3.html?page=1
+[Sun Jul 30 18:19:59.744991 2023] [ssl:warn] [pid 13780:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 30 18:19:59.774997 2023] [core:warn] [pid 13780:tid 644] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 30 18:19:59.831020 2023] [ssl:warn] [pid 13780:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 30 18:19:59.953997 2023] [mpm_winnt:notice] [pid 13780:tid 644] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 configured -- resuming normal operations
+[Sun Jul 30 18:19:59.953997 2023] [mpm_winnt:notice] [pid 13780:tid 644] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Sun Jul 30 18:19:59.953997 2023] [core:notice] [pid 13780:tid 644] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Sun Jul 30 18:19:59.954998 2023] [mpm_winnt:notice] [pid 13780:tid 644] AH00418: Parent: Created child process 2788
+[Sun Jul 30 18:20:00.470236 2023] [ssl:warn] [pid 2788:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 30 18:20:00.568413 2023] [ssl:warn] [pid 2788:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 30 18:20:00.594414 2023] [mpm_winnt:notice] [pid 2788:tid 624] AH00354: Child: Starting 150 worker threads.

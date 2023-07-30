@@ -149,5 +149,16 @@ class User extends Model
         return true;
     }
 
+    static public function usernameIsExist($username)
+    {
+        $User = new User;
+        $Users = $User->where('username', '=', $username)->select();
+        if ($Users === [])
+        {
+            return false;
+        }
+        return true;
+    }
+
     
 }

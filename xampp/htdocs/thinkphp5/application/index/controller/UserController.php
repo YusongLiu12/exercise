@@ -138,7 +138,7 @@ class UserController extends IndexController
     {
         $add_keyword = "新增用户";
        // 获取查询信息
-        $username = input('get.username');
+        $user_name = input('get.user_name');
 
         $pageSize = 5; // 每页显示5条数据
         $page = input('get.page');
@@ -152,9 +152,9 @@ class UserController extends IndexController
         $User = new User; 
 
         // 按条件查询数据并调用分页
-        $Users = $User->where('username', 'like', '%' . $username . '%')->order('id asc')->paginate($pageSize, false, [
+        $Users = $User->where('name', 'like', '%' . $user_name . '%')->order('id asc')->paginate($pageSize, false, [
             'query'=>[
-                'username' => $username,
+                'user_name' => $user_name,
                 ],
             ]);
 
@@ -207,6 +207,10 @@ class UserController extends IndexController
             return $this->error('操作失败 ' . $validate->getError(), url('User/index').'?page='.$_SESSION['think']['page']);
         }
 
+        if (User::usernameIsExist($User->username))
+        {
+            return $this->error('用户名已存在', url('User/index').'?page='.$_SESSION['think']['page']);
+        }
 
         // 更新或保存
         return $User->validate(true)->save();

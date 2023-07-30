@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:74:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\user\index.html";i:1690592190;s:69:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\index.html";i:1690444245;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:74:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\user\index.html";i:1690713114;s:69:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\index.html";i:1690444245;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
@@ -70,7 +70,7 @@
         <div class="col-md-4">
             
     <form class="form-inline">
-        <input class="form-control mr-sm-2" type="search" name="username" placeholder="用户名..." value="<?php echo input('get.username'); ?>">
+        <input class="form-control mr-sm-2" type="search" name="user_name" placeholder="姓名..." value="<?php echo input('get.user_name'); ?>">
         <button class="btn btn-primary bi-search" type="submit">&nbsp查询</button>
     </form>
 

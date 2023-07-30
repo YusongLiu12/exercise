@@ -15,7 +15,7 @@ class IndexController extends Controller
 
         // 验证用户是否登陆
         if (!User::isLogin()) {
-            return $this->error('plz login first', url('Login/index'));
+            return $this->error('请先登录', url('Login/index'));
         }
     }
 
