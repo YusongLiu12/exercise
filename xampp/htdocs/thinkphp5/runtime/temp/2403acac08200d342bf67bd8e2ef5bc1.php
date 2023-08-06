@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:77:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html";i:1690591021;s:69:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\index.html";i:1690444245;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:77:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\index.html";i:1691068227;s:69:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\index.html";i:1690444245;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
@@ -93,12 +93,12 @@
             <th>访问类型</th>
             <th>操作</th>
         </tr>
-        <?php $_SESSION['key'] = 1; if(is_array($Projects) || $Projects instanceof \think\Collection): $key = 0; $__LIST__ = $Projects;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$_project): $mod = ($key % 2 );++$key;?>
+        <?php if(is_array($Projects) || $Projects instanceof \think\Collection): $key = 0; $__LIST__ = $Projects;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$_project): $mod = ($key % 2 );++$key;?>
         <!--如果当前登录用户在该项目内或者该项目为公开，则显示该项目-->
-        <?php if(in_array($_project->getData('id'), $joined_projects) || ($_project->access_type === '公开')): ?>
         <tr>
-            <td><?php echo $_SESSION['key']++; ?></td>
+            <td><?php echo $key; ?></td>
             <td><?php echo $_project->getData('project_name'); ?></td>
+            <?php if(in_array($_project->getData('id'), $joined_projects) || ($_project->access_type === '公开')): ?>
             <td><?php echo $User->getNameById($_project->getData('create_user')); ?></td>
             <td><?php if($_project->access_type == '公开'): ?>公开<?php else: ?>私有<?php endif; ?></td>
             <td>
@@ -129,16 +129,17 @@
                 <a class="btn btn-sm btn-success bi-pencil-square" href="<?php echo url('invite?id=' . $_project->getData('id')); ?>">&nbsp邀请</a>
                 <?php endif; ?>
             </td>
-        </tr>
-        <?php else: ?>
-        <tr>
-            <td class="alert alert-danger" role="alert"></td>
-            <td class="alert alert-danger" role="alert"></td>
+            <?php else: ?>
             <td class="alert alert-danger" role="alert"></td>
             <td class="alert alert-danger" role="alert"></td>
             <td class="alert alert-danger" role="alert"><small>该项目为私有，请等待创建者邀请您加入</small></td>
         </tr>
-        <?php endif; endforeach; endif; else: echo "" ;endif; ?>
+        <?php endif; endforeach; endif; else: echo "" ;endif; 
+            if ($key === 1)
+            {
+                $_SESSION['think']['delete_page'] -= 1;
+            }
+        ?>
     </table>
 
             

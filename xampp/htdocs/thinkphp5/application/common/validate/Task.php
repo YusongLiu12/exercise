@@ -17,6 +17,10 @@ class Task extends Validate
 
     protected function beforeEndtimep($value,$rule)
     {
-        return $rule == $value ?: '开始时间必须在结束时间之前';
+        if ($value)
+        {
+            return true;
+        }
+        return false;
     }
 }

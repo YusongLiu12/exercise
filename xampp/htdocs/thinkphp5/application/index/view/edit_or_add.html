@@ -28,6 +28,42 @@
 </head>
 
 <body class="contanier">
+    <!-- 菜单导航 -->
+    <div class="row">
+        <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand" href="#">项目管理系统</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <!--$_SESSION['now_controller']在控制器构造函数中定义-->
+                <li class="nav-item {eq name="$_SESSION['now_controller']" value="Project"}active{/eq}">
+                <a class="nav-link" href="{:url('Project/index')}">项目管理<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item {eq name="$_SESSION['now_controller']" value="User"}active{/eq}">
+                <a class="nav-link" href="{:url('User/index')}">用户管理</a>
+                </li>
+                </ul>
+
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle bi-person-fill" type="button" data-toggle="dropdown" aria-expanded="false">
+                    欢迎您，{$_SESSION['think']['user']->getData('name')}{eq name="$_SESSION['think']['user']->getData('access_level')"" value="0"}用户{else /}管理员{/eq}
+                    </button>
+                    <div class="dropdown-menu">
+                        <small class="dropdown-item">{eq name="$_SESSION['think']['user']->getData('access_level')"" value="0"}欢迎加入我们，今后一起努力吧!{else /}您已拥有一级权限{/eq}</small>
+                        <a class="dropdown-item" href="{:url('Login/logout')}">退出登录</a>
+                    </div>
+                </div>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- /菜单导航 -->
+    <hr />
     <div class="row mt-5">
         <div class="col-4 offset-4 border border-success p-2">
             {block name="content"}

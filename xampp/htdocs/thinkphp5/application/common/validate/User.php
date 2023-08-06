@@ -7,7 +7,7 @@ class User extends Validate
     protected $rule = [
         'username' => 'require|length:2,25',
         'name' => 'require|length:2,25',
-        'password'  => 'require|number|between:10,99999999',
+        'password'  => 'require|numbersAndLetters:thinkphp|length:6,25',
     ];
 
     protected $message  =   [
@@ -15,7 +15,17 @@ class User extends Validate
         'username.require' => '用户名不能为空',
         'name.length'     => '姓名必须为2到25个字符', 
         'name.require' => '姓名不能为空',
-        'password.number' => '密码必须为2-8位数字',
-        'password.between' => '密码必须为2-8位数字',
+        'password.require' => '密码不能为空',
+        'password.numbersAndLetters' => '密码必须同时包含数字和字母',
+        'password.length' => '密码必须为6-25位',
     ];
+
+    protected function numbersAndLetters($value,$rule)
+    {
+        if (preg_match('/[A-Za-z]/', $value) && preg_match('/[0-9]/', $value))
+        {
+            return true;
+        }
+        return false;
+    }
 }

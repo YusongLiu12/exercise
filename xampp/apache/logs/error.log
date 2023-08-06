@@ -6207,3 +6207,209 @@ sl:warn] [pid 5756:tid 636] AH01909: www.example.com:443:0 server certificate do
 [Sun Jul 30 18:20:00.470236 2023] [ssl:warn] [pid 2788:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Sun Jul 30 18:20:00.568413 2023] [ssl:warn] [pid 2788:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Sun Jul 30 18:20:00.594414 2023] [mpm_winnt:notice] [pid 2788:tid 624] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 31 10:04:17.729235 2023] [ssl:warn] [pid 12692:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 31 10:04:17.760528 2023] [core:warn] [pid 12692:tid 632] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 31 10:04:17.792326 2023] [ssl:warn] [pid 12692:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 31 10:04:17.917599 2023] [mpm_winnt:notice] [pid 12692:tid 632] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 configured -- resuming normal operations
+[Mon Jul 31 10:04:17.917599 2023] [mpm_winnt:notice] [pid 12692:tid 632] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Mon Jul 31 10:04:17.917599 2023] [core:notice] [pid 12692:tid 632] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Mon Jul 31 10:04:17.917599 2023] [mpm_winnt:notice] [pid 12692:tid 632] AH00418: Parent: Created child process 1292
+[Mon Jul 31 10:04:18.388929 2023] [ssl:warn] [pid 1292:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 31 10:04:18.483067 2023] [ssl:warn] [pid 1292:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 31 10:04:18.498691 2023] [mpm_winnt:notice] [pid 1292:tid 636] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 31 22:55:05.977903 2023] [:error] [pid 1292:tid 1964] [client 127.0.0.1:51699] PHP Parse error:  syntax error, unexpected ';' in D:\\xampp\\htdocs\\thinkphp5\\application\\index\\controller\\IndexController.php on line 18
+[Mon Jul 31 22:55:05.977903 2023] [:error] [pid 1292:tid 1964] [client 127.0.0.1:51699] PHP Stack trace:
+[Mon Jul 31 22:55:05.977903 2023] [:error] [pid 1292:tid 1964] [client 127.0.0.1:51699] PHP   1. {main}() D:\\xampp\\htdocs\\thinkphp5\\public\\index.php:0
+[Mon Jul 31 22:55:05.977903 2023] [:error] [pid 1292:tid 1964] [client 127.0.0.1:51699] PHP   2. require() D:\\xampp\\htdocs\\thinkphp5\\public\\index.php:18
+[Mon Jul 31 22:55:05.977903 2023] [:error] [pid 1292:tid 1964] [client 127.0.0.1:51699] PHP   3. think\\App::run() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\start.php:18
+[Mon Jul 31 22:55:05.977903 2023] [:error] [pid 1292:tid 1964] [client 127.0.0.1:51699] PHP   4. think\\App::module() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:134
+[Mon Jul 31 22:55:05.977903 2023] [:error] [pid 1292:tid 1964] [client 127.0.0.1:51699] PHP   5. think\\Loader::controller() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:344
+[Mon Jul 31 22:55:05.977903 2023] [:error] [pid 1292:tid 1964] [client 127.0.0.1:51699] PHP   6. class_exists() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:408
+[Mon Jul 31 22:55:05.977903 2023] [:error] [pid 1292:tid 1964] [client 127.0.0.1:51699] PHP   7. spl_autoload_call() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:408
+[Mon Jul 31 22:55:05.977903 2023] [:error] [pid 1292:tid 1964] [client 127.0.0.1:51699] PHP   8. think\\Loader::autoload() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:0
+[Mon Jul 31 22:55:05.977903 2023] [:error] [pid 1292:tid 1964] [client 127.0.0.1:51699] PHP   9. think\\__include_file() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:58
+[Mon Jul 31 22:55:05.977903 2023] [:error] [pid 1292:tid 1964] [client 127.0.0.1:51699] PHP  10. include() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:544
+[Mon Jul 31 22:55:05.977903 2023] [:error] [pid 1292:tid 1964] [client 127.0.0.1:51699] PHP  11. spl_autoload_call() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:14
+[Mon Jul 31 22:55:05.977903 2023] [:error] [pid 1292:tid 1964] [client 127.0.0.1:51699] PHP  12. think\\Loader::autoload() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:0
+[Mon Jul 31 22:55:05.977903 2023] [:error] [pid 1292:tid 1964] [client 127.0.0.1:51699] PHP  13. think\\__include_file() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:58
+[Tue Aug 01 11:08:07.389830 2023] [ssl:warn] [pid 9844:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 01 11:08:07.413963 2023] [core:warn] [pid 9844:tid 648] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Aug 01 11:08:07.460833 2023] [ssl:warn] [pid 9844:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 01 11:08:07.492471 2023] [mpm_winnt:notice] [pid 9844:tid 648] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 configured -- resuming normal operations
+[Tue Aug 01 11:08:07.492471 2023] [mpm_winnt:notice] [pid 9844:tid 648] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Tue Aug 01 11:08:07.492471 2023] [core:notice] [pid 9844:tid 648] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Tue Aug 01 11:08:07.492471 2023] [mpm_winnt:notice] [pid 9844:tid 648] AH00418: Parent: Created child process 1092
+[Tue Aug 01 11:08:07.947211 2023] [ssl:warn] [pid 1092:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 01 11:08:08.025723 2023] [ssl:warn] [pid 1092:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 01 11:08:08.057168 2023] [mpm_winnt:notice] [pid 1092:tid 640] AH00354: Child: Starting 150 worker threads.
+[Wed Aug 02 15:33:33.271866 2023] [ssl:warn] [pid 8760:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Aug 02 15:33:33.303059 2023] [core:warn] [pid 8760:tid 628] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Aug 02 15:33:33.350341 2023] [ssl:warn] [pid 8760:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Aug 02 15:33:33.381589 2023] [mpm_winnt:notice] [pid 8760:tid 628] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 configured -- resuming normal operations
+[Wed Aug 02 15:33:33.381589 2023] [mpm_winnt:notice] [pid 8760:tid 628] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Wed Aug 02 15:33:33.381589 2023] [core:notice] [pid 8760:tid 628] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Wed Aug 02 15:33:33.397213 2023] [mpm_winnt:notice] [pid 8760:tid 628] AH00418: Parent: Created child process 4696
+[Wed Aug 02 15:33:34.009553 2023] [ssl:warn] [pid 4696:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Aug 02 15:33:34.072592 2023] [ssl:warn] [pid 4696:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Aug 02 15:33:34.103835 2023] [mpm_winnt:notice] [pid 4696:tid 640] AH00354: Child: Starting 150 worker threads.
+[Thu Aug 03 11:50:27.729686 2023] [ssl:warn] [pid 10784:tid 660] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 03 11:50:27.750310 2023] [core:warn] [pid 10784:tid 660] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Aug 03 11:50:27.808235 2023] [ssl:warn] [pid 10784:tid 660] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 03 11:50:27.839477 2023] [mpm_winnt:notice] [pid 10784:tid 660] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 configured -- resuming normal operations
+[Thu Aug 03 11:50:27.839477 2023] [mpm_winnt:notice] [pid 10784:tid 660] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Thu Aug 03 11:50:27.839477 2023] [core:notice] [pid 10784:tid 660] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Thu Aug 03 11:50:27.839477 2023] [mpm_winnt:notice] [pid 10784:tid 660] AH00418: Parent: Created child process 10952
+[Thu Aug 03 11:50:28.310255 2023] [ssl:warn] [pid 10952:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 03 11:50:28.388858 2023] [ssl:warn] [pid 10952:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 03 11:50:28.404436 2023] [mpm_winnt:notice] [pid 10952:tid 648] AH00354: Child: Starting 150 worker threads.
+[Thu Aug 03 13:16:46.798148 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52548] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in D:\\xampp\\htdocs\\thinkphp5\\application\\index\\controller\\UserController.php on line 182, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:46.798148 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52548] PHP Stack trace:, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:46.798148 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52548] PHP   1. {main}() D:\\xampp\\htdocs\\thinkphp5\\public\\index.php:0, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:46.798148 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52548] PHP   2. require() D:\\xampp\\htdocs\\thinkphp5\\public\\index.php:18, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:46.798148 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52548] PHP   3. think\\App::run() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\start.php:18, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:46.798148 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52548] PHP   4. think\\App::module() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:134, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:46.798148 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52548] PHP   5. think\\Loader::controller() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:344, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:46.798148 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52548] PHP   6. class_exists() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:408, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:46.798148 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52548] PHP   7. spl_autoload_call() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:408, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:46.798148 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52548] PHP   8. think\\Loader::autoload() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:0, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:46.798148 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52548] PHP   9. think\\__include_file() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:58, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:55.868862 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52559] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in D:\\xampp\\htdocs\\thinkphp5\\application\\index\\controller\\UserController.php on line 182, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:55.884522 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52559] PHP Stack trace:, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:55.884583 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52559] PHP   1. {main}() D:\\xampp\\htdocs\\thinkphp5\\public\\index.php:0, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:55.885113 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52559] PHP   2. require() D:\\xampp\\htdocs\\thinkphp5\\public\\index.php:18, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:55.885113 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52559] PHP   3. think\\App::run() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\start.php:18, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:55.885613 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52559] PHP   4. think\\App::module() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:134, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:55.885613 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52559] PHP   5. think\\Loader::controller() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:344, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:55.885613 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52559] PHP   6. class_exists() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:408, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:55.885613 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52559] PHP   7. spl_autoload_call() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:408, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:55.885613 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52559] PHP   8. think\\Loader::autoload() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:0, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:55.885613 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52559] PHP   9. think\\__include_file() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:58, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:56.911287 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52562] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in D:\\xampp\\htdocs\\thinkphp5\\application\\index\\controller\\UserController.php on line 182, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:56.911287 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52562] PHP Stack trace:, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:56.911287 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52562] PHP   1. {main}() D:\\xampp\\htdocs\\thinkphp5\\public\\index.php:0, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:56.911287 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52562] PHP   2. require() D:\\xampp\\htdocs\\thinkphp5\\public\\index.php:18, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:56.911287 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52562] PHP   3. think\\App::run() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\start.php:18, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:56.911287 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52562] PHP   4. think\\App::module() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:134, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:56.911287 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52562] PHP   5. think\\Loader::controller() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:344, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:56.911287 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52562] PHP   6. class_exists() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:408, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:56.911287 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52562] PHP   7. spl_autoload_call() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:408, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:56.911287 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52562] PHP   8. think\\Loader::autoload() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:0, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Thu Aug 03 13:16:56.911287 2023] [:error] [pid 10952:tid 1964] [client 127.0.0.1:52562] PHP   9. think\\__include_file() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:58, referer: http://localhost:444/thinkphp5/public/index/project/index.html
+[Fri Aug 04 10:08:56.722246 2023] [ssl:warn] [pid 4276:tid 700] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Aug 04 10:08:56.753914 2023] [core:warn] [pid 4276:tid 700] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Aug 04 10:08:56.801358 2023] [ssl:warn] [pid 4276:tid 700] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Aug 04 10:08:56.816868 2023] [mpm_winnt:notice] [pid 4276:tid 700] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 configured -- resuming normal operations
+[Fri Aug 04 10:08:56.816868 2023] [mpm_winnt:notice] [pid 4276:tid 700] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Fri Aug 04 10:08:56.816868 2023] [core:notice] [pid 4276:tid 700] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Fri Aug 04 10:08:56.816868 2023] [mpm_winnt:notice] [pid 4276:tid 700] AH00418: Parent: Created child process 3724
+[Fri Aug 04 10:08:57.303232 2023] [ssl:warn] [pid 3724:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Aug 04 10:08:57.381807 2023] [ssl:warn] [pid 3724:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Aug 04 10:08:57.397428 2023] [mpm_winnt:notice] [pid 3724:tid 640] AH00354: Child: Starting 150 worker threads.
+[Fri Aug 04 11:33:51.516988 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56396] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL) in D:\\xampp\\htdocs\\thinkphp5\\runtime\\temp\\2ebe31f658372b2702152aae785f7cac.php on line 101, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:33:51.516988 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56396] PHP Stack trace:, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:33:51.516988 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56396] PHP   1. {main}() D:\\xampp\\htdocs\\thinkphp5\\public\\index.php:0, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:33:51.516988 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56396] PHP   2. require() D:\\xampp\\htdocs\\thinkphp5\\public\\index.php:18, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:33:51.516988 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56396] PHP   3. think\\App::run() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\start.php:18, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:33:51.516988 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56396] PHP   4. think\\App::module() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:134, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:33:51.516988 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56396] PHP   5. think\\App::invokeMethod() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:359, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:33:51.516988 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56396] PHP   6. ReflectionMethod->invokeArgs() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:226, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:33:51.516988 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56396] PHP   7. app\\index\\controller\\UserController->add() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:226, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:33:51.516988 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56396] PHP   8. think\\Controller->fetch() D:\\xampp\\htdocs\\thinkphp5\\application\\index\\controller\\UserController.php:42, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:33:51.516988 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56396] PHP   9. think\\View->fetch() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Controller.php:108, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:33:51.516988 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56396] PHP  10. think\\view\\driver\\Think->fetch() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\View.php:127, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:33:51.516988 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56396] PHP  11. think\\Template->fetch() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\view\\driver\\Think.php:82, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:33:51.516988 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56396] PHP  12. think\\template\\driver\\File->read() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Template.php:193, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:34:03.930511 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56408] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL) in D:\\xampp\\htdocs\\thinkphp5\\runtime\\temp\\2ebe31f658372b2702152aae785f7cac.php on line 101, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:34:03.946134 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56408] PHP Stack trace:, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:34:03.946134 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56408] PHP   1. {main}() D:\\xampp\\htdocs\\thinkphp5\\public\\index.php:0, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:34:03.946134 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56408] PHP   2. require() D:\\xampp\\htdocs\\thinkphp5\\public\\index.php:18, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:34:03.946134 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56408] PHP   3. think\\App::run() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\start.php:18, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:34:03.946134 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56408] PHP   4. think\\App::module() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:134, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:34:03.946134 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56408] PHP   5. think\\App::invokeMethod() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:359, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:34:03.946134 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56408] PHP   6. ReflectionMethod->invokeArgs() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:226, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:34:03.946134 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56408] PHP   7. app\\index\\controller\\UserController->add() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:226, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:34:03.946134 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56408] PHP   8. think\\Controller->fetch() D:\\xampp\\htdocs\\thinkphp5\\application\\index\\controller\\UserController.php:42, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:34:03.946134 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56408] PHP   9. think\\View->fetch() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Controller.php:108, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:34:03.946134 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56408] PHP  10. think\\view\\driver\\Think->fetch() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\View.php:127, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:34:03.946134 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56408] PHP  11. think\\Template->fetch() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\view\\driver\\Think.php:82, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:34:03.946134 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56408] PHP  12. think\\template\\driver\\File->read() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Template.php:193, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:38:03.504669 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56559] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in D:\\xampp\\htdocs\\thinkphp5\\runtime\\temp\\2ebe31f658372b2702152aae785f7cac.php on line 82, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:38:03.504669 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56559] PHP Stack trace:, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:38:03.504669 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56559] PHP   1. {main}() D:\\xampp\\htdocs\\thinkphp5\\public\\index.php:0, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:38:03.504669 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56559] PHP   2. require() D:\\xampp\\htdocs\\thinkphp5\\public\\index.php:18, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:38:03.504669 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56559] PHP   3. think\\App::run() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\start.php:18, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:38:03.504669 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56559] PHP   4. think\\App::module() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:134, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:38:03.504669 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56559] PHP   5. think\\App::invokeMethod() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:359, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:38:03.504669 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56559] PHP   6. ReflectionMethod->invokeArgs() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:226, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:38:03.504669 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56559] PHP   7. app\\index\\controller\\UserController->add() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:226, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:38:03.504669 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56559] PHP   8. think\\Controller->fetch() D:\\xampp\\htdocs\\thinkphp5\\application\\index\\controller\\UserController.php:42, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:38:03.504669 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56559] PHP   9. think\\View->fetch() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Controller.php:108, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:38:03.504669 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56559] PHP  10. think\\view\\driver\\Think->fetch() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\View.php:127, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:38:03.504669 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56559] PHP  11. think\\Template->fetch() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\view\\driver\\Think.php:82, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 11:38:03.504669 2023] [:error] [pid 3724:tid 1964] [client 127.0.0.1:56559] PHP  12. think\\template\\driver\\File->read() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Template.php:193, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 18:23:28.138646 2023] [:error] [pid 3724:tid 1948] [client 127.0.0.1:51645] PHP Parse error:  syntax error, unexpected 'session' (T_STRING) in D:\\xampp\\htdocs\\thinkphp5\\application\\index\\controller\\UserController.php on line 173, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 18:23:28.138646 2023] [:error] [pid 3724:tid 1948] [client 127.0.0.1:51645] PHP Stack trace:, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 18:23:28.138646 2023] [:error] [pid 3724:tid 1948] [client 127.0.0.1:51645] PHP   1. {main}() D:\\xampp\\htdocs\\thinkphp5\\public\\index.php:0, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 18:23:28.138646 2023] [:error] [pid 3724:tid 1948] [client 127.0.0.1:51645] PHP   2. require() D:\\xampp\\htdocs\\thinkphp5\\public\\index.php:18, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 18:23:28.138646 2023] [:error] [pid 3724:tid 1948] [client 127.0.0.1:51645] PHP   3. think\\App::run() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\start.php:18, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 18:23:28.138646 2023] [:error] [pid 3724:tid 1948] [client 127.0.0.1:51645] PHP   4. think\\App::module() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:134, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 18:23:28.138646 2023] [:error] [pid 3724:tid 1948] [client 127.0.0.1:51645] PHP   5. think\\Loader::controller() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\App.php:344, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 18:23:28.138646 2023] [:error] [pid 3724:tid 1948] [client 127.0.0.1:51645] PHP   6. class_exists() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:408, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 18:23:28.138646 2023] [:error] [pid 3724:tid 1948] [client 127.0.0.1:51645] PHP   7. spl_autoload_call() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:408, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 18:23:28.138646 2023] [:error] [pid 3724:tid 1948] [client 127.0.0.1:51645] PHP   8. think\\Loader::autoload() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:0, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 18:23:28.138646 2023] [:error] [pid 3724:tid 1948] [client 127.0.0.1:51645] PHP   9. think\\__include_file() D:\\xampp\\htdocs\\thinkphp5\\thinkphp\\library\\think\\Loader.php:58, referer: http://localhost:444/thinkphp5/public/index/user/index.html
+[Fri Aug 04 18:50:45.970390 2023] [access_compat:error] [pid 3724:tid 1948] [client ::1:53165] AH01797: client denied by server configuration: D:/xampp/htdocs/thinkphp5/application/, referer: http://localhost:444/
+[Fri Aug 04 18:50:45.997233 2023] [access_compat:error] [pid 3724:tid 1948] [client ::1:53165] AH01797: client denied by server configuration: D:/xampp/htdocs/thinkphp5/thinkphp/, referer: http://localhost:444/
+[Fri Aug 04 19:27:32.800864 2023] [ssl:warn] [pid 10460:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Aug 04 19:27:32.832507 2023] [core:warn] [pid 10460:tid 644] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Aug 04 19:27:32.879382 2023] [ssl:warn] [pid 10460:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Aug 04 19:27:34.726605 2023] [mpm_winnt:notice] [pid 10460:tid 644] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 configured -- resuming normal operations
+[Fri Aug 04 19:27:34.726605 2023] [mpm_winnt:notice] [pid 10460:tid 644] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Fri Aug 04 19:27:34.726605 2023] [core:notice] [pid 10460:tid 644] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Fri Aug 04 19:27:34.726605 2023] [mpm_winnt:notice] [pid 10460:tid 644] AH00418: Parent: Created child process 6608
+[Fri Aug 04 19:27:35.219328 2023] [ssl:warn] [pid 6608:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Aug 04 19:27:35.297841 2023] [ssl:warn] [pid 6608:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Aug 04 19:27:35.313509 2023] [mpm_winnt:notice] [pid 6608:tid 640] AH00354: Child: Starting 150 worker threads.
+[Sat Aug 05 13:29:39.509706 2023] [ssl:warn] [pid 9696:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 05 13:29:39.541753 2023] [core:warn] [pid 9696:tid 648] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Aug 05 13:29:39.592075 2023] [ssl:warn] [pid 9696:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 05 13:29:39.622679 2023] [mpm_winnt:notice] [pid 9696:tid 648] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 configured -- resuming normal operations
+[Sat Aug 05 13:29:39.623675 2023] [mpm_winnt:notice] [pid 9696:tid 648] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Sat Aug 05 13:29:39.623675 2023] [core:notice] [pid 9696:tid 648] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Sat Aug 05 13:29:39.624568 2023] [mpm_winnt:notice] [pid 9696:tid 648] AH00418: Parent: Created child process 8944
+[Sat Aug 05 13:29:40.088863 2023] [ssl:warn] [pid 8944:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 05 13:29:40.164327 2023] [ssl:warn] [pid 8944:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 05 13:29:40.188256 2023] [mpm_winnt:notice] [pid 8944:tid 652] AH00354: Child: Starting 150 worker threads.
+[Sat Aug 05 22:49:18.430560 2023] [ssl:warn] [pid 5072:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 05 22:49:18.462190 2023] [core:warn] [pid 5072:tid 632] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Aug 05 22:49:18.509115 2023] [ssl:warn] [pid 5072:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 05 22:49:18.540359 2023] [mpm_winnt:notice] [pid 5072:tid 632] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 configured -- resuming normal operations
+[Sat Aug 05 22:49:18.540359 2023] [mpm_winnt:notice] [pid 5072:tid 632] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Sat Aug 05 22:49:18.540359 2023] [core:notice] [pid 5072:tid 632] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Sat Aug 05 22:49:18.540359 2023] [mpm_winnt:notice] [pid 5072:tid 632] AH00418: Parent: Created child process 11384
+[Sat Aug 05 22:49:19.011033 2023] [ssl:warn] [pid 11384:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 05 22:49:19.073865 2023] [ssl:warn] [pid 11384:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 05 22:49:19.105117 2023] [mpm_winnt:notice] [pid 11384:tid 648] AH00354: Child: Starting 150 worker threads.
+[Sun Aug 06 08:30:12.394334 2023] [ssl:warn] [pid 1724:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 06 08:30:12.425581 2023] [core:warn] [pid 1724:tid 648] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Aug 06 08:30:12.473289 2023] [ssl:warn] [pid 1724:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 06 08:30:12.504549 2023] [mpm_winnt:notice] [pid 1724:tid 648] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 configured -- resuming normal operations
+[Sun Aug 06 08:30:12.504549 2023] [mpm_winnt:notice] [pid 1724:tid 648] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Sun Aug 06 08:30:12.504549 2023] [core:notice] [pid 1724:tid 648] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Sun Aug 06 08:30:12.520219 2023] [mpm_winnt:notice] [pid 1724:tid 648] AH00418: Parent: Created child process 1360
+[Sun Aug 06 08:30:13.069658 2023] [ssl:warn] [pid 1360:tid 492] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 06 08:30:13.150755 2023] [ssl:warn] [pid 1360:tid 492] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 06 08:30:13.163832 2023] [mpm_winnt:notice] [pid 1360:tid 492] AH00354: Child: Starting 150 worker threads.
+[Sun Aug 06 08:52:44.027222 2023] [access_compat:error] [pid 1360:tid 1948] [client 127.0.0.1:63762] AH01797: client denied by server configuration: D:/xampp/htdocs/thinkphp5/application/, referer: http://xvvyah.natappfree.cc/
+[Sun Aug 06 08:52:44.039226 2023] [access_compat:error] [pid 1360:tid 1948] [client 127.0.0.1:63762] AH01797: client denied by server configuration: D:/xampp/htdocs/thinkphp5/thinkphp/, referer: http://xvvyah.natappfree.cc/
+[Sun Aug 06 09:17:42.185077 2023] [mpm_winnt:notice] [pid 1724:tid 648] AH00428: Parent: child process 1360 exited with status 1 -- Restarting.
+[Sun Aug 06 09:17:42.278633 2023] [ssl:warn] [pid 1724:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 06 09:17:42.309924 2023] [mpm_winnt:notice] [pid 1724:tid 648] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 configured -- resuming normal operations
+[Sun Aug 06 09:17:42.309924 2023] [mpm_winnt:notice] [pid 1724:tid 648] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Sun Aug 06 09:17:42.309924 2023] [core:notice] [pid 1724:tid 648] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Sun Aug 06 09:17:42.309924 2023] [mpm_winnt:notice] [pid 1724:tid 648] AH00418: Parent: Created child process 1812
+[Sun Aug 06 09:17:42.812904 2023] [ssl:warn] [pid 1812:tid 656] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 06 09:17:42.891533 2023] [ssl:warn] [pid 1812:tid 656] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 06 09:17:42.922782 2023] [mpm_winnt:notice] [pid 1812:tid 656] AH00354: Child: Starting 150 worker threads.
+[Sun Aug 06 09:17:43.739863 2023] [mpm_winnt:crit] [pid 1812:tid 656] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Aug 06 09:17:45.766105 2023] [mpm_winnt:notice] [pid 1812:tid 656] AH00364: Child: All worker threads have exited.

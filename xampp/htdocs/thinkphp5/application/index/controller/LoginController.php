@@ -18,10 +18,10 @@ class LoginController extends Controller
     {
         // 接收post信息
         $postData = Request::instance()->post();
-        
+
         // 直接调用M层方法，进行登录。
         if (User::login($postData['username'], $postData['password'])) {
-            return $this->success('登陆成功', url('Project/index'));
+            return $this->success('登录成功', url('Project/index'));
         } else {
             return $this->error('登陆失败，用户名或密码错误', url('index'));
         }
@@ -31,9 +31,9 @@ class LoginController extends Controller
     public function logOut()
     {
         if (User::logOut()) {
-            return $this->success('登出成功', url('index'));
+            return $this->success('退出登录成功', url('index'));
         } else {
-            return $this->error('登出失败', url('index'));
+            return $this->error('退出登录失败', url('index'));
         }
     }
 

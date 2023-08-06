@@ -1074,3 +1074,36 @@
 22:14:44  [main] 	Deinitializing Modules
 22:14:44  [main] 	Deinitializing Control Panel
 
+8:30:09  [main] 	Initializing Control Panel
+8:30:09  [main] 	Windows Version:  Enterprise  64-bit
+8:30:09  [main] 	XAMPP Version: 5.6.21
+8:30:09  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+8:30:09  [main] 	You are not running with administrator rights! This will work for
+8:30:09  [main] 	most application stuff but whenever you do something with services
+8:30:09  [main] 	there will be a security dialogue or things will break! So think 
+8:30:09  [main] 	about running this application with administrator rights!
+8:30:09  [main] 	XAMPP Installation Directory: "d:\xampp\"
+8:30:10  [main] 	Checking for prerequisites
+8:30:10  [main] 	All prerequisites found
+8:30:10  [main] 	Initializing Modules
+8:30:10  [Apache] 	Problem detected!
+8:30:10  [Apache] 	Port 80 in use by "Unable to open process" with PID 4!
+8:30:10  [Apache] 	Apache WILL NOT start without the configured ports free!
+8:30:10  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+8:30:10  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+8:30:10  [main] 	The FileZilla module is disabled
+8:30:10  [main] 	The Mercury module is disabled
+8:30:10  [main] 	Starting Check-Timer
+8:30:10  [main] 	Control Panel Ready
+8:30:11  [Apache] 	Problem detected!
+8:30:11  [Apache] 	Port 80 in use by "Unable to open process" with PID 4!
+8:30:11  [Apache] 	Apache WILL NOT start without the configured ports free!
+8:30:11  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+8:30:11  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+8:30:11  [Apache] 	Attempting to start Apache app...
+8:30:12  [Apache] 	Status change detected: running
+8:30:12  [mysql] 	Attempting to start MySQL app...
+8:30:12  [mysql] 	Status change detected: running
+9:17:36  [main] 	Deinitializing Modules
+9:17:36  [main] 	Deinitializing Control Panel
+

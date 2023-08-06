@@ -22,23 +22,13 @@ class TaskController extends IndexController
 
     public function add()
     {
-        // 实例化
-        $Task = new Task;
-
         $project_id = Request::instance()->param('project_id/d');
         $Project = Project::get($project_id);
 
         $joined_users = $Project->getMemberIds();
-
-        // 设置默认值
-        $Task->id = 1;
-        $Task->task_title = '';
-        $Task->status = 0;
-        $Task->leader_id = $Project->getData('create_user');
-        $Task->start_time = 0;
-        $Task->end_time = 0;    
+   
         $this->assign('User', $_SESSION['think']['user']);    
-        $this->assign('Task', $Task);
+        $this->assign('Task', $_SESSION['think']['fillTask']);
         $this->assign('Project', $Project);
         $this->assign('joined_users', $joined_users);
 
@@ -149,6 +139,15 @@ class TaskController extends IndexController
         $this->assign('User', $User);
         $this->assign('add_keyword', $add_keyword);
 
+        //初始化新增任务暂存数据
+        $Task->id = 1;
+        $Task->task_title = '';
+        $Task->status = 0;
+        $Task->leader_id = $Project->getData('create_user');
+        $Task->start_time = 0;
+        $Task->end_time = 0;
+        session('fillTask', $Task);
+
         // 取回打包后的数据
         $htmls = $this->fetch();
 
@@ -167,11 +166,11 @@ class TaskController extends IndexController
 
         // 新增数据
         if (!$this->saveTask($Task, $Project)) {
-            return $this->error('操作失败' . $Task->getError());
+            return $this->error('操作失败：' . $Task->getError());
         }
 
         // 成功跳转至index触发器
-        return $this->success('操作成功', url('Task/index?id=' . $Project->getData('id')).'?page='.$_SESSION['think']['page']);
+        return $this->success('操作成功：', url('Task/index?id=' . $Project->getData('id')).'?page='.$_SESSION['think']['page']);
     }
 
     private function saveTask(Task &$Task, $Project) 
@@ -183,6 +182,15 @@ class TaskController extends IndexController
         $Task->project_id = input('post.project_id');
         $Task->start_time = input('post.start_time');
         $Task->end_time = input('post.end_time');
+
+        //暂存用户输入数据
+        $fillTask = &$_SESSION['think']['fillTask'];
+        $fillTask->task_title = input('post.task_title');
+        $fillTask->status = input('post.task_status');
+        $fillTask->leader_id = input('post.leader_id');
+        $fillTask->project_id = input('post.project_id');
+        $fillTask->start_time = input('post.start_time');
+        $fillTask->end_time = input('post.end_time');
 
         //判断开始时间是否大于结束时间
         $st = strtotime($Task->getData('start_time'));
@@ -198,8 +206,11 @@ class TaskController extends IndexController
 
         if(!$validate->check($data))
         {
-            return $this->error('操作失败 ' . $validate->getError(), url('Task/index?id=' . $Project->getData('id')).'?page='.$_SESSION['think']['page']);
+            return $this->error('操作失败：' . $validate->getError());
         }
+
+        //销毁暂存数据
+        session('fillTask', null);
 
         // 更新或保存
         return $Task->validate(true)->save();
@@ -219,7 +230,7 @@ class TaskController extends IndexController
 
         if(!$validate->check($data))
         {
-            return $this->error('操作失败 ' . $validate->getError(), url('Task/index?id=' . $Project->getData('id')).'?page='.$_SESSION['think']['page']);
+            return $this->error('操作失败：' . $validate->getError());
         }
 
         // 保存
@@ -243,7 +254,7 @@ class TaskController extends IndexController
 
         if(!$validate->check($data))
         {
-            return $this->error('操作失败 ' . $validate->getError(), url('Task/index?id=' . $Project->getData('id')).'?page='.$_SESSION['think']['page']);
+            return $this->error('操作失败：' . $validate->getError());
         }
 
         // 更新或保存
@@ -274,10 +285,10 @@ class TaskController extends IndexController
         //更新任务数据
         if (!is_null($Task)) {
             if (($this->saveTask($Task, $Project)) === false) {
-                return $this->error('操作失败' . $Task->getError());
+                return $this->error('操作失败：' . $Task->getError());
             }
         } else {
-            return $this->error('当前操作的记录不存在');
+            return $this->error('操作失败：当前操作的记录不存在');
         }
 
         //记录修改后的任务状态

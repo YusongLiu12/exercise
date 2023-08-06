@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\login\index.html";i:1690007866;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\login\index.html";i:1690769259;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
@@ -44,10 +44,6 @@
                     <label for="password">密码</label>
                     <input type="password" class="form-control" id="password" 
                         name="password">
-                  </div>
-                  <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="remeberPassword">
-                    <label class="form-check-label" for="remeberPassword">记住密码</label>
                   </div>
                   <button type="submit" class="btn btn-primary">登录</button>
                 </form>

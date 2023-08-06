@@ -94,7 +94,7 @@ class ProjectController extends IndexController
         } 
 
         // 进行跳转 
-        return $this->success('删除成功', url('index').'?page='.$_SESSION['think']['page']); 
+        return $this->success('删除成功', url('index').'?page='.$_SESSION['think']['delete_page']); 
     }
 
     public function edit()
@@ -127,7 +127,7 @@ class ProjectController extends IndexController
             $page = 1;
         }
         session('page', $page);
-
+        session('delete_page', $page);
 
         // 实例化
         $Project = new Project; 
@@ -148,6 +148,7 @@ class ProjectController extends IndexController
         $this->assign('User', $User);
         $this->assign('add_keyword', $add_keyword);
         $this->assign('joined_projects', $joined_projects);
+        $this->assign('pageSize', $pageSize);
 
         // 取回打包后的数据
         $htmls = $this->fetch();

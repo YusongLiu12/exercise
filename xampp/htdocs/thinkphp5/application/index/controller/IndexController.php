@@ -13,9 +13,11 @@ class IndexController extends Controller
         // 调用父类构造函数(必须)
         parent::__construct();
 
+        $url = url('Login/index');
+        
         // 验证用户是否登陆
         if (!User::isLogin()) {
-            return $this->error('请先登录', url('Login/index'));
+            header("Location: $url");die();
         }
     }
 

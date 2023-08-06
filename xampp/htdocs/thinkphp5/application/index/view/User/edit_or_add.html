@@ -6,10 +6,6 @@
 {php}$action = request()->action() === 'add' ? 'save' : 'update';{/php}
 <form action="{:url($action)}" method="POST">
     <input type="hidden" name="id" value="{$User->id}" />
-    
-    <?php if($_SESSION['think']['user']->access_level === '用户'):?>
-    <input type="hidden" name="access_level" value="{$User->getData('access_level')}" />
-    <?php endif; ?>
     <div class="form-group">
         <label for="username">用户名</label>
         <?php if($action === 'save'):?>
@@ -23,18 +19,22 @@
         <label for="user_name">姓名</label>
         <input type="text" class="form-control" id="user_name" placeholder="请输入姓名" name="user_name" value="{$User->getData('name')}">
     </div>
+    <?php if($action === 'save'):?>
     <div class="form-group">
         <label for="password">密码</label>
         <input type="password" class="form-control" id="password" placeholder="请输入密码" name="password" value="{$User->getData('password')}">
     </div>
+    <?php endif; ?>
     <?php if($_SESSION['think']['user']->access_level === '管理员'):?>
     <div class="form-group">
         <label>访问权限:</label>
         <select name="access_level">
-            <option value="0" {eq name="$User->access_level" value="普通用户"}selected='selected'{/eq}>普通用户</option>
+            <option value="0" {eq name="$User->access_level" value="普通用户"}selected='selected'{/eq} {eq name="$_SESSION['think']['user']->id" value="$User->getData('id')"}hidden{/eq}>普通用户</option>
             <option value="1" {eq name="$User->access_level" value="管理员"}selected='selected'{/eq}>管理员</option>
         </select>
     </div>
+    <?php else: ?>
+    <input type="hidden" name="access_level" value="{$User->getData('access_level')}" />
     <?php endif; ?>
     <button type="submit" class="btn btn-primary">保存</button>
 </form>

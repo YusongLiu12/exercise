@@ -17,13 +17,12 @@
             <th>访问类型</th>
             <th>操作</th>
         </tr>
-        <?php $_SESSION['key'] = 1; ?>
         {volist name="Projects" id="_project" key="key"}
         <!--如果当前登录用户在该项目内或者该项目为公开，则显示该项目-->
-        <?php if(in_array($_project->getData('id'), $joined_projects) || ($_project->access_type === '公开')): ?>
         <tr>
-            <td>{$_SESSION['key']++}</td>
+            <td>{$key}</td>
             <td>{$_project->getData('project_name')}</td>
+            <?php if(in_array($_project->getData('id'), $joined_projects) || ($_project->access_type === '公开')): ?>
             <td><?php echo $User->getNameById($_project->getData('create_user')); ?></td>
             <td>{eq name="$_project->access_type" value='公开'}公开{else /}私有{/eq}</td>
             <td>
@@ -54,17 +53,19 @@
                 <a class="btn btn-sm btn-success bi-pencil-square" href="{:url('invite?id=' . $_project->getData('id'))}">&nbsp邀请</a>
                 <?php endif; ?>
             </td>
-        </tr>
-        <?php else: ?>
-        <tr>
-            <td class="alert alert-danger" role="alert"></td>
-            <td class="alert alert-danger" role="alert"></td>
+            <?php else: ?>
             <td class="alert alert-danger" role="alert"></td>
             <td class="alert alert-danger" role="alert"></td>
             <td class="alert alert-danger" role="alert"><small>该项目为私有，请等待创建者邀请您加入</small></td>
         </tr>
         <?php endif; ?>
         {/volist}
+        <?php 
+            if ($key === 1)
+            {
+                $_SESSION['think']['delete_page'] -= 1;
+            }
+        ?>
     </table>
 {/block}
 {block name="page"}

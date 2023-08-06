@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:83:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\edit_or_add.html";i:1690532244;s:75:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\edit_or_add.html";i:1690354822;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:83:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\project\edit_or_add.html";i:1690532244;s:75:"D:\xampp\htdocs\thinkphp5\public/../application/index\view\edit_or_add.html";i:1690801110;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 
@@ -31,6 +31,42 @@
 </head>
 
 <body class="contanier">
+    <!-- 菜单导航 -->
+    <div class="row">
+        <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand" href="#">项目管理系统</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <!--$_SESSION['now_controller']在控制器构造函数中定义-->
+                <li class="nav-item <?php if($_SESSION['now_controller'] == 'Project'): ?>active<?php endif; ?>">
+                <a class="nav-link" href="<?php echo url('Project/index'); ?>">项目管理<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item <?php if($_SESSION['now_controller'] == 'User'): ?>active<?php endif; ?>">
+                <a class="nav-link" href="<?php echo url('User/index'); ?>">用户管理</a>
+                </li>
+                </ul>
+
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle bi-person-fill" type="button" data-toggle="dropdown" aria-expanded="false">
+                    欢迎您，<?php echo $_SESSION['think']['user']->getData('name'); if($_SESSION['think']['user']->getData('access_level') == '0'): ?>用户<?php else: ?>管理员<?php endif; ?>
+                    </button>
+                    <div class="dropdown-menu">
+                        <small class="dropdown-item"><?php if($_SESSION['think']['user']->getData('access_level') == '0'): ?>欢迎加入我们，今后一起努力吧!<?php else: ?>您已拥有一级权限<?php endif; ?></small>
+                        <a class="dropdown-item" href="<?php echo url('Login/logout'); ?>">退出登录</a>
+                    </div>
+                </div>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- /菜单导航 -->
+    <hr />
     <div class="row mt-5">
         <div class="col-4 offset-4 border border-success p-2">
             
